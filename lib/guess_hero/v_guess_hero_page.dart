@@ -1,6 +1,7 @@
 import 'package:dota_guess_the_hero/guess_hero/c_guess_hero_controller.dart';
 import 'package:dota_guess_the_hero/utils/app_constants.dart';
 import 'package:dota_guess_the_hero/utils/extensions/sized_box_extension.dart';
+import 'package:dota_guess_the_hero/utils/gobal_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../render/m_render_model.dart';
@@ -65,6 +66,7 @@ class _GuessHeroPageState extends State<GuessHeroPage> {
             eachHeroTile(title: "Hero", data: guessedHero.image),
             eachHeroTile(title: "Gender", data: guessedHero.gender),
             eachHeroTile(title: "Attribute", data: guessedHero.attribute),
+            eachHeroTile(title: "Species", data: guessedHero.species),
           ],
         ),
         5.heightBox(),
@@ -83,6 +85,7 @@ class _GuessHeroPageState extends State<GuessHeroPage> {
   }
 
   Widget eachHeroTile({required String title, required var data}) {
+    superPrint(controller.selectedHero!.species);
     return Expanded(
       child: Padding(
         padding: const EdgeInsets.only(right: 8.0),
@@ -117,29 +120,45 @@ class _GuessHeroPageState extends State<GuessHeroPage> {
                             ],
                           ),
                         )
-                      : Container(
-                          color: controller.getValidationColor(
-                              type: title, data: data),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Text(
-                                data,
+                      : title == "Species"
+                          ? Container(
+                              color: controller.getValidationColor(
+                                  type: title, data: data),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Text(
+                                    data.join(", "),
+                                    textAlign: TextAlign.center,
+                                  ),
+                                ],
                               ),
-                              if (title == "Release Year" &&
-                                  AppFunctions.getYearIcon(
-                                          guessHeroReleaseYear: data,
-                                          selectedHeroReleaseYear: controller
-                                              .selectedHero!.releasedYear) !=
-                                      Icons.add)
-                                Icon(AppFunctions.getYearIcon(
-                                    guessHeroReleaseYear: data,
-                                    selectedHeroReleaseYear:
-                                        controller.selectedHero!.releasedYear))
-                            ],
-                          ),
-                        ),
+                            )
+                          : Container(
+                              color: controller.getValidationColor(
+                                  type: title, data: data),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Text(
+                                    data,
+                                  ),
+                                  if (title == "Release Year" &&
+                                      AppFunctions.getYearIcon(
+                                              guessHeroReleaseYear: data,
+                                              selectedHeroReleaseYear:
+                                                  controller.selectedHero!
+                                                      .releasedYear) !=
+                                          Icons.add)
+                                    Icon(AppFunctions.getYearIcon(
+                                        guessHeroReleaseYear: data,
+                                        selectedHeroReleaseYear: controller
+                                            .selectedHero!.releasedYear))
+                                ],
+                              ),
+                            ),
             ),
           ],
         ),

@@ -39,6 +39,9 @@ class _RenderPageState extends State<RenderPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.red,
+      ),
       body: GetBuilder<RenderController>(builder: (controller) {
         return Stack(
           children: [

@@ -3,6 +3,7 @@ class RenderModel {
   String image = "";
   String gender = "male";
   List<String> position = [];
+  List<String> species = [];
   String attribute = "agility";
   String rangeType = "melee";
   String complexityLevel = "easy";
@@ -17,6 +18,7 @@ class RenderModel {
       required this.complexityLevel,
       required this.gender,
       required this.image,
+      required this.species,
       required this.rangeType,
       required this.selectedDateTime,
       required this.releasedYear});
@@ -26,9 +28,14 @@ class RenderModel {
     for (var r in json['position']) {
       tempList.add(r);
     }
+    List<String> tempSpeciesList = [];
+    for (var r in json['species']) {
+      tempSpeciesList.add(r);
+    }
     return RenderModel(
         name: json['localized_name'],
         position: tempList,
+        species: tempSpeciesList,
         attribute: json['attribute'],
         complexityLevel: json['complexity'],
         gender: json['gender'].first,

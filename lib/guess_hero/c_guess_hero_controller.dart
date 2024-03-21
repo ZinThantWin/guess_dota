@@ -20,6 +20,7 @@ class GuessHeroController extends GetxController {
   void onSelectSearchedHero(RenderModel hero) {
     var tempHeroModel = RenderModel(
         name: hero.name,
+        species: hero.species,
         position: hero.position,
         attribute: hero.attribute,
         complexityLevel: hero.complexityLevel,
@@ -90,16 +91,18 @@ class GuessHeroController extends GetxController {
       validationColor = getRangeTypeValidationColor(data: data);
     } else if (type == "Complexity") {
       validationColor = getComplexityValidationColor(data: data);
-    } else if (type == "Position") {
-      validationColor = getRolesValidationColor(data: data);
+    } else if (type == "Position" || type == "Species") {
+      validationColor = getRolesAndSpeciesValidationColor(
+          data: data, xSpecies: type == "Species");
     } else {
       validationColor = getReleaseYearValidationColor(data: data);
     }
     return validationColor;
   }
 
-  Color getRolesValidationColor({required List<String> data}) {
-    var data2 = selectedHero!.position;
+  Color getRolesAndSpeciesValidationColor(
+      {required List<String> data, required bool xSpecies}) {
+    var data2 = xSpecies ? selectedHero!.species : selectedHero!.position;
     data.sort();
     data2.sort();
     if (data.length == data2.length &&
