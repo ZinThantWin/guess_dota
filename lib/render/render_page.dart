@@ -3,7 +3,6 @@ import 'package:dota_guess_the_hero/guess_hero/v_guess_hero_page.dart';
 import 'package:dota_guess_the_hero/render/c_render_controller.dart';
 import 'package:dota_guess_the_hero/render/m_render_model.dart';
 import 'package:dota_guess_the_hero/utils/extensions/sized_box_extension.dart';
-import 'package:dota_guess_the_hero/utils/gobal_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
@@ -156,12 +155,11 @@ class _RenderPageState extends State<RenderPage> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  "${hero.name} / ${AppFunctions.getAttackType(hero.rangeType)}",
+                  "${hero.name} / ${hero.rangeType}",
                   style: const TextStyle(
                       fontSize: 16, fontWeight: FontWeight.w600),
                 ),
-                Text(
-                    "${AppFunctions.getRoles(hero.position)}/ ${hero.releasedYear.toString()}"),
+                Text("${hero.position}/ ${hero.releasedYear.toString()}"),
               ],
             ),
           ),
@@ -170,8 +168,8 @@ class _RenderPageState extends State<RenderPage> {
             crossAxisAlignment: CrossAxisAlignment.end,
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text(AppFunctions.getComplexityLevel(hero.complexityLevel)),
-              Text(AppFunctions.getGenderType(hero.gender)),
+              Text(hero.complexityLevel),
+              Text(hero.gender),
             ],
           )
         ],

@@ -1,7 +1,6 @@
 import 'package:dota_guess_the_hero/guess_hero/c_guess_hero_controller.dart';
 import 'package:dota_guess_the_hero/utils/app_constants.dart';
 import 'package:dota_guess_the_hero/utils/extensions/sized_box_extension.dart';
-import 'package:dota_guess_the_hero/utils/gobal_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../render/m_render_model.dart';
@@ -112,7 +111,7 @@ class _GuessHeroPageState extends State<GuessHeroPage> {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Text(
-                                AppFunctions.getRoles(data),
+                                data.join(", "),
                                 textAlign: TextAlign.center,
                               ),
                             ],
@@ -126,16 +125,7 @@ class _GuessHeroPageState extends State<GuessHeroPage> {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Text(
-                                title == "Gender"
-                                    ? AppFunctions.getGenderType(data)
-                                    : title == "Attribute"
-                                        ? AppFunctions.getPrimaryAttribute(data)
-                                        : title == "Range Type"
-                                            ? AppFunctions.getAttackType(data)
-                                            : title == "Complexity"
-                                                ? AppFunctions
-                                                    .getComplexityLevel(data)
-                                                : data.toString(),
+                                data,
                               ),
                               if (title == "Release Year" &&
                                   AppFunctions.getYearIcon(
@@ -219,11 +209,11 @@ class _GuessHeroPageState extends State<GuessHeroPage> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    "${hero.name} / ${AppFunctions.getAttackType(hero.rangeType)}",
+                    "${hero.name} / ${hero.rangeType}",
                     style: const TextStyle(
                         fontSize: 16, fontWeight: FontWeight.w600),
                   ),
-                  Text(AppFunctions.getRoles(hero.position)),
+                  Text(hero.position.join(", ")),
                 ],
               ),
             ),
@@ -232,8 +222,8 @@ class _GuessHeroPageState extends State<GuessHeroPage> {
               crossAxisAlignment: CrossAxisAlignment.end,
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text(AppFunctions.getComplexityLevel(hero.complexityLevel)),
-                Text(AppFunctions.getGenderType(hero.gender)),
+                Text(hero.complexityLevel),
+                Text(hero.gender),
               ],
             )
           ],

@@ -14,11 +14,14 @@ class AppFunctions {
   }
 
   static IconData getYearIcon(
-      {required selectedHeroReleaseYear, required int guessHeroReleaseYear}) {
+      {required String selectedHeroReleaseYear,
+      required String guessHeroReleaseYear}) {
     IconData iconData = Icons.add;
-    if (selectedHeroReleaseYear > guessHeroReleaseYear) {
+    int a = int.parse(selectedHeroReleaseYear);
+    int b = int.parse(guessHeroReleaseYear);
+    if (a > b) {
       iconData = Icons.arrow_upward;
-    } else if (selectedHeroReleaseYear < guessHeroReleaseYear) {
+    } else if (a < b) {
       iconData = Icons.arrow_downward;
     }
     return iconData;
@@ -46,12 +49,12 @@ class AppFunctions {
     }
   }
 
-  static Color getPrimaryAttributeColor(int attribute) {
-    if (attribute == 1) {
+  static Color getPrimaryAttributeColor(String attribute) {
+    if (attribute.toUpperCase() == "AGILITY") {
       return Colors.green;
-    } else if (attribute == 2) {
+    } else if (attribute.toUpperCase() == "STRENGTH") {
       return Colors.red;
-    } else if (attribute == 3) {
+    } else if (attribute.toUpperCase() == "INTELLIGENCE") {
       return Colors.blue;
     } else {
       return Colors.purple;

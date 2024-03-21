@@ -20,7 +20,6 @@ class GuessHeroController extends GetxController {
   void onSelectSearchedHero(RenderModel hero) {
     var tempHeroModel = RenderModel(
         name: hero.name,
-        id: hero.id,
         position: hero.position,
         attribute: hero.attribute,
         complexityLevel: hero.complexityLevel,
@@ -99,7 +98,7 @@ class GuessHeroController extends GetxController {
     return validationColor;
   }
 
-  Color getRolesValidationColor({required List<int> data}) {
+  Color getRolesValidationColor({required List<String> data}) {
     var data2 = selectedHero!.position;
     data.sort();
     data2.sort();
@@ -116,31 +115,31 @@ class GuessHeroController extends GetxController {
     }
   }
 
-  Color getGenderValidationColor({required int data}) {
-    if (data == selectedHero!.gender) {
+  Color getGenderValidationColor({required String data}) {
+    if (data.toUpperCase() == selectedHero!.gender.toUpperCase()) {
       return Colors.green;
     } else {
       return Colors.red;
     }
   }
 
-  Color getAttributeValidationColor({required int data}) {
-    if (data == selectedHero!.attribute) {
+  Color getAttributeValidationColor({required String data}) {
+    if (data.toUpperCase() == selectedHero!.attribute.toUpperCase()) {
       return Colors.green;
     } else {
       return Colors.red;
     }
   }
 
-  Color getRangeTypeValidationColor({required int data}) {
-    if (data == selectedHero!.rangeType) {
+  Color getRangeTypeValidationColor({required String data}) {
+    if (data.toUpperCase() == selectedHero!.rangeType.toUpperCase()) {
       return Colors.green;
     } else {
       return Colors.red;
     }
   }
 
-  Color getReleaseYearValidationColor({required int data}) {
+  Color getReleaseYearValidationColor({required String data}) {
     if (data == selectedHero!.releasedYear) {
       return Colors.green;
     } else {
@@ -148,8 +147,8 @@ class GuessHeroController extends GetxController {
     }
   }
 
-  Color getComplexityValidationColor({required int data}) {
-    if (data == selectedHero!.complexityLevel) {
+  Color getComplexityValidationColor({required String data}) {
+    if (data.toUpperCase() == selectedHero!.complexityLevel.toUpperCase()) {
       return Colors.green;
     } else {
       return Colors.red;

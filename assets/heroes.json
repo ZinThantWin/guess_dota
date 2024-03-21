@@ -2,1907 +2,3843 @@
   "heroes": [
     {
       "localized_name": "Anti-Mage",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/antimage_full.png",
-      "name": "npc_dota_hero_antimage",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/antimage_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/antimage_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/antimage_vert.jpg",
-      "id": 1,
-      "gender" : 1,
-      "species" : ["human"],
-      "position" : [1],
-      "attribute" : 1,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2004
+      "url_full_portrait": "https://dotadle.net/img/AntiMage.6c5939d5.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/AntiMage.6c5939d5.webp",
+      "url_large_portrait": "https://dotadle.net/img/AntiMage.6c5939d5.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/AntiMage.6c5939d5.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Human"
+      ],
+      "position": [
+        "Carry"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
     },
     {
       "localized_name": "Axe",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/axe_full.png",
-      "name": "npc_dota_hero_axe",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/axe_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/axe_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/axe_vert.jpg",
-      "id": 2,
-      "gender" : 1,
-      "species" : ["Oglodi"],
-      "position" : [3],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2005
-    },
-    {
-      "localized_name": "Bane",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/bane_full.png",
-      "name": "npc_dota_hero_bane",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/bane_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/bane_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/bane_vert.jpg",
-      "id": 3,
-      "gender" : 3,
-      "species" : ["Elemental"],
-      "position" : [4,5],
-      "attribute" : 4,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Bloodseeker",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/bloodseeker_full.png",
-      "name": "npc_dota_hero_bloodseeker",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/bloodseeker_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/bloodseeker_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/bloodseeker_vert.jpg",
-      "id": 4,
-      "gender" : 1,
-      "species" : ["human"],
-      "position" : [1],
-      "attribute" : 1,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2005
-    },
-    {
-      "localized_name": "Crystal Maiden",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/crystal_maiden_full.png",
-      "name": "npc_dota_hero_crystal_maiden",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/crystal_maiden_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/crystal_maiden_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/crystal_maiden_vert.jpg",
-      "id": 5,
-      "gender" : 2,
-      "species" : ["human"],
-      "position" : [4,5],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Drow Ranger",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/drow_ranger_full.png",
-      "name": "npc_dota_hero_drow_ranger",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/drow_ranger_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/drow_ranger_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/drow_ranger_vert.jpg",
-      "id": 6,
-      "gender" : 2,
-      "species" : ["human,undead"],
-      "position" : [1],
-      "attribute" : 1,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Earthshaker",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/earthshaker_full.png",
-      "name": "npc_dota_hero_earthshaker",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/earthshaker_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/earthshaker_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/earthshaker_vert.jpg",
-      "id": 7,
-      "gender" : 1,
-      "species" : ["elemental"],
-      "position" : [3,4],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2005
-    },
-    {
-      "localized_name": "Juggernaut",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/juggernaut_full.png",
-      "name": "npc_dota_hero_juggernaut",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/juggernaut_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/juggernaut_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/juggernaut_vert.jpg",
-      "id": 8,
-      "gender" : 1,
-      "species" : ["human,masked one"],
-      "position" : [1],
-      "attribute" : 1,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Mirana",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/mirana_full.png",
-      "name": "npc_dota_hero_mirana",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/mirana_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/mirana_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/mirana_vert.jpg",
-      "id": 9,
-      "gender" : 2,
-      "species" : ["human"],
-      "position" : [4,5],
-      "attribute" : 1,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2006
-    },
-    {
-      "localized_name": "Shadow Fiend",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/nevermore_full.png",
-      "name": "npc_dota_hero_nevermore",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/nevermore_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/nevermore_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/nevermore_vert.jpg",
-      "id": 11,
-      "gender" : 1,
-      "species" : [""],
-      "position" : [1,2],
-      "attribute" : 1,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Morphling",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/morphling_full.png",
-      "name": "npc_dota_hero_morphling",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/morphling_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/morphling_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/morphling_vert.jpg",
-      "id": 10,
-      "gender" : 3,
-      "species" : ["elemental"],
-      "position" : [1],
-      "attribute" : 1,
-      "rangeType" : 2,
-      "complexity" : 3,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Phantom Lancer",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/phantom_lancer_full.png",
-      "name": "npc_dota_hero_phantom_lancer",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/phantom_lancer_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/phantom_lancer_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/phantom_lancer_vert.jpg",
-      "id": 12,
-      "gender" : 1,
-      "species" : ["unknown"],
-      "position" : [1],
-      "attribute" : 1,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2005
-    },
-    {
-      "localized_name": "Puck",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/puck_full.png",
-      "name": "npc_dota_hero_puck",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/puck_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/puck_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/puck_vert.jpg",
-      "id": 13,
-      "gender" : 3,
-      "species" : [""],
-      "position" : [2],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2007
-    },
-    {
-      "localized_name": "Pudge",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/pudge_full.png",
-      "name": "npc_dota_hero_pudge",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/pudge_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/pudge_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/pudge_vert.jpg",
-      "id": 14,
-      "gender" : 1,
-      "species" : ["human","undead"],
-      "position" : [3,4,5],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Razor",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/razor_full.png",
-      "name": "npc_dota_hero_razor",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/razor_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/razor_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/razor_vert.jpg",
-      "id": 15,
-      "gender" : 2,
-      "species" : ["revenant"],
-      "position" : [1,2,3],
-      "attribute" : 1,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Sand King",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/sand_king_full.png",
-      "name": "npc_dota_hero_sand_king",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/sand_king_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/sand_king_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/sand_king_vert.jpg",
-      "id": 16,
-      "gender" : 1,
-      "species" : ["elemental"],
-      "position" : [3],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Storm Spirit",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/storm_spirit_full.png",
-      "name": "npc_dota_hero_storm_spirit",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/storm_spirit_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/storm_spirit_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/storm_spirit_vert.jpg",
-      "id": 17,
-      "gender" : 1,
-      "species" : ["celestial"],
-      "position" : [2],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2007
-    },
-    {
-      "localized_name": "Sven",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/sven_full.png",
-      "name": "npc_dota_hero_sven",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/sven_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/sven_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/sven_vert.jpg",
-      "id": 18,
-      "gender" : 1,
-      "species" : ["human,meranth"],
-      "position" : [1],
-      "attribute" : 1,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Tiny",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/tiny_full.png",
-      "name": "npc_dota_hero_tiny",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/tiny_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/tiny_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/tiny_vert.jpg",
-      "id": 19,
-      "gender" : 1,
-      "species" : ["giant"],
-      "position" : [2,3,4],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2005
-    },
-    {
-      "localized_name": "Vengeful Spirit",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/vengefulspirit_full.png",
-      "name": "npc_dota_hero_vengefulspirit",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/vengefulspirit_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/vengefulspirit_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/vengefulspirit_vert.jpg",
-      "id": 20,
-      "gender" : 2,
-      "species" : ["skywrath"],
-      "position" : [4,5],
-      "attribute" : 4,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Windranger",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/windrunner_full.png",
-      "name": "npc_dota_hero_windrunner",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/windrunner_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/windrunner_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/windrunner_vert.jpg",
-      "id": 21,
-      "gender" : 2,
-      "species" : ["human"],
-      "position" : [2,3,4],
-      "attribute" : 4,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2008
-    },
-    {
-      "localized_name": "Zeus",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/zuus_full.png",
-      "name": "npc_dota_hero_zuus",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/zuus_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/zuus_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/zuus_vert.jpg",
-      "id": 22,
-      "gender" : 1,
-      "species" : ["god"],
-      "position" : [2,4],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Kunkka",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/kunkka_full.png",
-      "name": "npc_dota_hero_kunkka",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/kunkka_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/kunkka_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/kunkka_vert.jpg",
-      "id": 23,
-      "gender" : 1,
-      "species" : ["human"],
-      "position" : [2,3],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2008
-    },
-    {
-      "localized_name": "Lina",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/lina_full.png",
-      "name": "npc_dota_hero_lina",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/lina_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/lina_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/lina_vert.jpg",
-      "id": 25,
-      "gender" : 2,
-      "species" : ["human"],
-      "position" : [1,2,4],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Lich",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/lich_full.png",
-      "name": "npc_dota_hero_lich",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/lich_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/lich_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/lich_vert.jpg",
-      "id": 31,
-      "gender" : 2,
-      "species" : ["undead"],
-      "position" : [4,5],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Lion",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/lion_full.png",
-      "name": "npc_dota_hero_lion",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/lion_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/lion_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/lion_vert.jpg",
-      "id": 26,
-      "gender" : 1,
-      "species" : ["demon"],
-      "position" : [4,5],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Shadow Shaman",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/shadow_shaman_full.png",
-      "name": "npc_dota_hero_shadow_shaman",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/shadow_shaman_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/shadow_shaman_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/shadow_shaman_vert.jpg",
-      "id": 27,
-      "gender" : 1,
-      "species" : ["troll"],
-      "position" : [4,5],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Slardar",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/slardar_full.png",
-      "name": "npc_dota_hero_slardar",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/slardar_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/slardar_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/slardar_vert.jpg",
-      "id": 28,
-      "gender" : 1,
-      "species" : ["meranth"],
-      "position" : [3],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Tidehunter",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/tidehunter_full.png",
-      "name": "npc_dota_hero_tidehunter",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/tidehunter_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/tidehunter_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/tidehunter_vert.jpg",
-      "id": 29,
-      "gender" : 1,
-      "species" : ["meranth"],
-      "position" : [3],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Witch Doctor",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/witch_doctor_full.png",
-      "name": "npc_dota_hero_witch_doctor",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/witch_doctor_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/witch_doctor_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/witch_doctor_vert.jpg",
-      "id": 30,
-      "gender" : 1,
-      "species" : ["troll"],
-      "position" : [4,5],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2006
-    },
-    {
-      "localized_name": "Riki",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/riki_full.png",
-      "name": "npc_dota_hero_riki",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/riki_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/riki_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/riki_vert.jpg",
-      "id": 32,
-      "gender" : 1,
-      "species" : ["satyr"],
-      "position" : [1],
-      "attribute" : 1,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Enigma",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/enigma_full.png",
-      "name": "npc_dota_hero_enigma",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/enigma_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/enigma_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/enigma_vert.jpg",
-      "id": 33,
-      "gender" : 3,
-      "species" : ["fundamental"],
-      "position" : [3,5],
-      "attribute" : 4,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2005
-    },
-    {
-      "localized_name": "Tinker",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/tinker_full.png",
-      "name": "npc_dota_hero_tinker",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/tinker_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/tinker_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/tinker_vert.jpg",
-      "id": 34,
-      "gender" : 1,
-      "species" : ["keen"],
-      "position" : [2],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Sniper",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/sniper_full.png",
-      "name": "npc_dota_hero_sniper",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/sniper_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/sniper_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/sniper_vert.jpg",
-      "id": 35,
-      "gender" : 1,
-      "species" : ["keen"],
-      "position" : [1,2],
-      "attribute" : 1,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Necrophos",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/necrolyte_full.png",
-      "name": "npc_dota_hero_necrolyte",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/necrolyte_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/necrolyte_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/necrolyte_vert.jpg",
-      "id": 36,
-      "gender" : 1,
-      "species" : ["human, magically altered, undead"],
-      "position" : [2,3],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Warlock",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/warlock_full.png",
-      "name": "npc_dota_hero_warlock",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/warlock_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/warlock_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/warlock_vert.jpg",
-      "id": 37,
-      "gender" : 1,
-      "species" : ["oglodi"],
-      "position" : [5],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2006
-    },
-    {
-      "localized_name": "Beastmaster",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/beastmaster_full.png",
-      "name": "npc_dota_hero_beastmaster",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/beastmaster_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/beastmaster_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/beastmaster_vert.jpg",
-      "id": 38,
-      "gender" : 1,
-      "species" : ["human"],
-      "position" : [3],
-      "attribute" : 4,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2006
-    },
-    {
-      "localized_name": "Queen of Pain",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/queenofpain_full.png",
-      "name": "npc_dota_hero_queenofpain",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/queenofpain_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/queenofpain_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/queenofpain_vert.jpg",
-      "id": 39,
-      "gender" : 2,
-      "species" : ["demon"],
-      "position" : [2],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Venomancer",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/venomancer_full.png",
-      "name": "npc_dota_hero_venomancer",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/venomancer_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/venomancer_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/venomancer_vert.jpg",
-      "id": 40,
-      "gender" : 1,
-      "species" : ["venomancer"],
-      "position" : [4,5],
-      "attribute" : 4,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Faceless Void",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/faceless_void_full.png",
-      "name": "npc_dota_hero_faceless_void",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/faceless_void_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/faceless_void_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/faceless_void_vert.jpg",
-      "id": 41,
-      "gender" : 1,
-      "species" : ["outer being"],
-      "position" : [1],
-      "attribute" : 1,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Wraith King",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/skeleton_king_full.png",
-      "name": "npc_dota_hero_skeleton_king",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/skeleton_king_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/skeleton_king_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/skeleton_king_vert.jpg",
-      "id": 42,
-      "gender" : 1,
-      "species" : ["undead, wraith"],
-      "position" : [1,3],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Death Prophet",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/death_prophet_full.png",
-      "name": "npc_dota_hero_death_prophet",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/death_prophet_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/death_prophet_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/death_prophet_vert.jpg",
-      "id": 43,
-      "gender" : 2,
-      "species" : ["undead, wraith"],
-      "position" : [2,3],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2004
+      "url_full_portrait": "https://dotadle.net/img/Axe.98f67604.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Axe.98f67604.webp",
+      "url_large_portrait": "https://dotadle.net/img/Axe.98f67604.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Axe.98f67604.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Oglodi"
+      ],
+      "position": [
+        "Offlane"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2005",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
     },
     {
       "localized_name": "Phantom Assassin",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/phantom_assassin_full.png",
-      "name": "npc_dota_hero_phantom_assassin",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/phantom_assassin_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/phantom_assassin_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/phantom_assassin_vert.jpg",
-      "id": 44,
-      "gender" : 2,
-      "species" : ["human"],
-      "position" : [1],
-      "attribute" : 1,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Pugna",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/pugna_full.png",
-      "name": "npc_dota_hero_pugna",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/pugna_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/pugna_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/pugna_vert.jpg",
-      "id": 45,
-      "gender" : 1,
-      "species" : ["nether being"],
-      "position" : [4,5],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2004
+      "url_full_portrait": "https://dotadle.net/img/PhantomAssassin.6106e888.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/PhantomAssassin.6106e888.webp",
+      "url_large_portrait": "https://dotadle.net/img/PhantomAssassin.6106e888.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/PhantomAssassin.6106e888.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Human"
+      ],
+      "position": [
+        "Carry"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
     },
     {
       "localized_name": "Templar Assassin",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/templar_assassin_full.png",
-      "name": "npc_dota_hero_templar_assassin",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/templar_assassin_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/templar_assassin_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/templar_assassin_vert.jpg",
-      "id": 46,
-      "gender" : 2,
-      "species" : ["human,magic born"],
-      "position" : [1,2],
-      "attribute" : 1,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2007
-    },
-    {
-      "localized_name": "Viper",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/viper_full.png",
-      "name": "npc_dota_hero_viper",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/viper_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/viper_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/viper_vert.jpg",
-      "id": 47,
-      "gender" : 1,
-      "species" : ["dragon, nether being"],
-      "position" : [2,3],
-      "attribute" : 1,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Luna",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/luna_full.png",
-      "name": "npc_dota_hero_luna",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/luna_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/luna_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/luna_vert.jpg",
-      "id": 48,
-      "gender" : 2,
-      "species" : ["human"],
-      "position" : [1],
-      "attribute" : 1,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Dragon Knight",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dragon_knight_full.png",
-      "name": "npc_dota_hero_dragon_knight",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dragon_knight_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dragon_knight_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dragon_knight_vert.jpg",
-      "id": 49,
-      "gender" : 1,
-      "species" : ["dragon, human"],
-      "position" : [1,2],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Dazzle",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dazzle_full.png",
-      "name": "npc_dota_hero_dazzle",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dazzle_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dazzle_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dazzle_vert.jpg",
-      "id": 50,
-      "gender" : 1,
-      "species" : ["troll"],
-      "position" : [2,4,5],
-      "attribute" : 4,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2005
-    },
-    {
-      "localized_name": "Clockwerk",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/rattletrap_full.png",
-      "name": "npc_dota_hero_rattletrap",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/rattletrap_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/rattletrap_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/rattletrap_vert.jpg",
-      "id": 51,
-      "gender" : 1,
-      "species" : ["keen"],
-      "position" : [3,4,5],
-      "attribute" : 4,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2008
-    },
-    {
-      "localized_name": "Leshrac",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/leshrac_full.png",
-      "name": "npc_dota_hero_leshrac",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/leshrac_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/leshrac_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/leshrac_vert.jpg",
-      "id": 52,
-      "gender" : 1,
-      "species" : ["elemental"],
-      "position" : [2],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Nature's Prophet",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/furion_full.png",
-      "name": "npc_dota_hero_furion",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/furion_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/furion_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/furion_vert.jpg",
-      "id": 53,
-      "gender" : 1,
-      "species" : ["nature's prophet"],
-      "position" : [1,4,5],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Lifestealer",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/life_stealer_full.png",
-      "name": "npc_dota_hero_life_stealer",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/life_stealer_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/life_stealer_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/life_stealer_vert.jpg",
-      "id": 54,
-      "gender" : 1,
-      "species" : [""],
-      "position" : [1],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Dark Seer",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_seer_full.png",
-      "name": "npc_dota_hero_dark_seer",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_seer_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_seer_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_seer_vert.jpg",
-      "id": 55,
-      "gender" : 1,
-      "species" : ["outer being"],
-      "position" : [3,4],
-      "attribute" : 4,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2007
-    },
-    {
-      "localized_name": "Clinkz",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/clinkz_full.png",
-      "name": "npc_dota_hero_clinkz",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/clinkz_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/clinkz_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/clinkz_vert.jpg",
-      "id": 56,
-      "gender" : 1,
-      "species" : ["undead, unknown"],
-      "position" : [2,4],
-      "attribute" : 1,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Omniknight",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/omniknight_full.png",
-      "name": "npc_dota_hero_omniknight",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/omniknight_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/omniknight_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/omniknight_vert.jpg",
-      "id": 57,
-      "gender" : 1,
-      "species" : ["human"],
-      "position" : [3,4],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Enchantress",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/enchantress_full.png",
-      "name": "npc_dota_hero_enchantress",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/enchantress_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/enchantress_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/enchantress_vert.jpg",
-      "id": 58,
-      "gender" : 2,
-      "species" : ["unknown"],
-      "position" : [4,5],
-      "attribute" :3,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2005
-    },
-    {
-      "localized_name": "Huskar",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/huskar_full.png",
-      "name": "npc_dota_hero_huskar",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/huskar_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/huskar_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/huskar_vert.jpg",
-      "id": 59,
-      "gender" : 1,
-      "species" : ["troll"],
-      "position" : [2,3],
-      "attribute" : 2,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2007
-    },
-    {
-      "localized_name": "Night Stalker",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/night_stalker_full.png",
-      "name": "npc_dota_hero_night_stalker",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/night_stalker_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/night_stalker_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/night_stalker_vert.jpg",
-      "id": 60,
-      "gender" : 1,
-      "species" : ["creature of darkness"],
-      "position" : [3],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Broodmother",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/broodmother_full.png",
-      "name": "npc_dota_hero_broodmother",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/broodmother_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/broodmother_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/broodmother_vert.jpg",
-      "id": 61,
-      "gender" : 2,
-      "species" : ["spider"],
-      "position" : [2,3],
-      "attribute" : 4,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Bounty Hunter",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/bounty_hunter_full.png",
-      "name": "npc_dota_hero_bounty_hunter",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/bounty_hunter_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/bounty_hunter_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/bounty_hunter_vert.jpg",
-      "id": 62,
-      "gender" : 1,
-      "species" : ["unknown"],
-      "position" : [4,5],
-      "attribute" : 1,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Weaver",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/weaver_full.png",
-      "name": "npc_dota_hero_weaver",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/weaver_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/weaver_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/weaver_vert.jpg",
-      "id": 63,
-      "gender" : 1,
-      "species" : ["weaver"],
-      "position" : [1],
-      "attribute" : 1,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2005
-    },
-    {
-      "localized_name": "Jakiro",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/jakiro_full.png",
-      "name": "npc_dota_hero_jakiro",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/jakiro_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/jakiro_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/jakiro_vert.jpg",
-      "id": 64,
-      "gender" : 1,
-      "species" : ["dragon"],
-      "position" : [4,5],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2006
-    },
-    {
-      "localized_name": "Batrider",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/batrider_full.png",
-      "name": "npc_dota_hero_batrider",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/batrider_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/batrider_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/batrider_vert.jpg",
-      "id": 65,
-      "gender" : 1,
-      "species" : ["troll"],
-      "position" : [2,4,5],
-      "attribute" : 4,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2009
-    },
-    {
-      "localized_name": "Chen",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/chen_full.png",
-      "name": "npc_dota_hero_chen",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/chen_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/chen_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/chen_vert.jpg",
-      "id": 66,
-      "gender" : 1,
-      "species" : ["human"],
-      "position" : [4,5],
-      "attribute" : 4,
-      "rangeType" : 2,
-      "complexity" : 3,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Spectre",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/spectre_full.png",
-      "name": "npc_dota_hero_spectre",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/spectre_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/spectre_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/spectre_vert.jpg",
-      "id": 67,
-      "gender" : 2,
-      "species" : ["demon"],
-      "position" : [1],
-      "attribute" : 1,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2006
-    },
-    {
-      "localized_name": "Doom",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/doom_bringer_full.png",
-      "name": "npc_dota_hero_doom_bringer",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/doom_bringer_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/doom_bringer_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/doom_bringer_vert.jpg",
-      "id": 69,
-      "gender" : 1,
-      "species" : ["demon"],
-      "position" : [3],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2004
+      "url_full_portrait": "https://dotadle.net/img/TemplarAssassin.19c0db60.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/TemplarAssassin.19c0db60.webp",
+      "url_large_portrait": "https://dotadle.net/img/TemplarAssassin.19c0db60.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/TemplarAssassin.19c0db60.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Human",
+        "Magicborn"
+      ],
+      "position": [
+        "Carry",
+        "Midlane"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2007",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
     },
     {
       "localized_name": "Ancient Apparition",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/ancient_apparition_full.png",
-      "name": "npc_dota_hero_ancient_apparition",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/ancient_apparition_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/ancient_apparition_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/ancient_apparition_vert.jpg",
-      "id": 68,
-      "gender" : 1,
-      "species" : ["elemental"],
-      "position" : [4,5],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2009
-    },
-    {
-      "localized_name": "Ursa",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/ursa_full.png",
-      "name": "npc_dota_hero_ursa",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/ursa_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/ursa_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/ursa_vert.jpg",
-      "id": 70,
-      "gender" : 1,
-      "species" : ["ursas"],
-      "position" : [1],
-      "attribute" : 1,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Spirit Breaker",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/spirit_breaker_full.png",
-      "name": "npc_dota_hero_spirit_breaker",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/spirit_breaker_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/spirit_breaker_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/spirit_breaker_vert.jpg",
-      "id": 71,
-      "gender" : 1,
-      "species" : ["elemental"],
-      "position" : [3,4],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2005
-    },
-    {
-      "localized_name": "Gyrocopter",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/gyrocopter_full.png",
-      "name": "npc_dota_hero_gyrocopter",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/gyrocopter_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/gyrocopter_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/gyrocopter_vert.jpg",
-      "id": 72,
-      "gender" : 1,
-      "species" : ["keen"],
-      "position" : [1],
-      "attribute" : 1,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2010
+      "url_full_portrait": "https://dotadle.net/img/AncientApparition.c5f3acef.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/AncientApparition.c5f3acef.webp",
+      "url_large_portrait": "https://dotadle.net/img/AncientApparition.c5f3acef.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/AncientApparition.c5f3acef.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Elemental"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2009",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
     },
     {
       "localized_name": "Alchemist",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/alchemist_full.png",
-      "name": "npc_dota_hero_alchemist",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/alchemist_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/alchemist_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/alchemist_vert.jpg",
-      "id": 73,
-      "gender" : 1,
-      "species" : ["keen, ogre"],
-      "position" : [1,2,3],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2006
-    },
-    {
-      "localized_name": "Invoker",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/invoker_full.png",
-      "name": "npc_dota_hero_invoker",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/invoker_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/invoker_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/invoker_vert.jpg",
-      "id": 74,
-      "gender" : 1,
-      "species" : ["human, magic born"],
-      "position" : [2,4],
-      "attribute" : 4,
-      "rangeType" : 2,
-      "complexity" : 3,
-      "releaseYear" : 2005
-    },
-    {
-      "localized_name": "Silencer",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/silencer_full.png",
-      "name": "npc_dota_hero_silencer",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/silencer_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/silencer_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/silencer_vert.jpg",
-      "id": 75,
-      "gender" : 1,
-      "species" : ["human"],
-      "position" : [2,4,5],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Outworld Devourer",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/obsidian_destroyer_full.png",
-      "name": "npc_dota_hero_obsidian_destroyer",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/obsidian_destroyer_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/obsidian_destroyer_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/obsidian_destroyer_vert.jpg",
-      "id": 76,
-      "gender" : 1,
-      "species" : ["outer being"],
-      "position" : [2],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2006
-    },
-    {
-      "localized_name": "Lycan",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/lycan_full.png",
-      "name": "npc_dota_hero_lycan",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/lycan_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/lycan_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/lycan_vert.jpg",
-      "id": 77,
-      "gender" : 1,
-      "species" : ["human, wold"],
-      "position" : [3],
-      "attribute" : 4,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Brewmaster",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/brewmaster_full.png",
-      "name": "npc_dota_hero_brewmaster",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/brewmaster_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/brewmaster_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/brewmaster_vert.jpg",
-      "id": 78,
-      "gender" : 1,
-      "species" : ["celestial"],
-      "position" : [3],
-      "attribute" : 4,
-      "rangeType" : 1,
-      "complexity" : 3,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Shadow Demon",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/shadow_demon_full.png",
-      "name": "npc_dota_hero_shadow_demon",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/shadow_demon_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/shadow_demon_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/shadow_demon_vert.jpg",
-      "id": 79,
-      "gender" : 1,
-      "species" : ["demon"],
-      "position" : [4,5],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2010
-    },
-    {
-      "localized_name": "Lone Druid",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/lone_druid_full.png",
-      "name": "npc_dota_hero_lone_druid",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/lone_druid_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/lone_druid_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/lone_druid_vert.jpg",
-      "id": 80,
-      "gender" : 1,
-      "species" : ["druid,human"],
-      "position" : [1,2,3],
-      "attribute" : 4,
-      "rangeType" : 2,
-      "complexity" : 3,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Chaos Knight",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/chaos_knight_full.png",
-      "name": "npc_dota_hero_chaos_knight",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/chaos_knight_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/chaos_knight_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/chaos_knight_vert.jpg",
-      "id": 81,
-      "gender" : 1,
-      "species" : ["demon,fundamental"],
-      "position" : [1],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Meepo",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/meepo_full.png",
-      "name": "npc_dota_hero_meepo",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/meepo_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/meepo_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/meepo_vert.jpg",
-      "id": 82,
-      "gender" : 1,
-      "species" : ["unknown"],
-      "position" : [1,2],
-      "attribute" : 1,
-      "rangeType" : 1,
-      "complexity" : 3,
-      "releaseYear" : 2007
-    },
-    {
-      "localized_name": "Treant Protector",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/treant_full.png",
-      "name": "npc_dota_hero_treant",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/treant_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/treant_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/treant_vert.jpg",
-      "id": 83,
-      "gender" : 1,
-      "species" : ["treant"],
-      "position" : [4,5],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Ogre Magi",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/ogre_magi_full.png",
-      "name": "npc_dota_hero_ogre_magi",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/ogre_magi_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/ogre_magi_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/ogre_magi_vert.jpg",
-      "id": 84,
-      "gender" : 1,
-      "species" : ["ogre"],
-      "position" : [4,5],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Undying",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/undying_full.png",
-      "name": "npc_dota_hero_undying",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/undying_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/undying_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/undying_vert.jpg",
-      "id": 85,
-      "gender" : 1,
-      "species" : ["undead"],
-      "position" : [4,5],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2007
-    },
-    {
-      "localized_name": "Rubick",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/rubick_full.png",
-      "name": "npc_dota_hero_rubick",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/rubick_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/rubick_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/rubick_vert.jpg",
-      "id": 86,
-      "gender" : 1,
-      "species" : ["unknown"],
-      "position" : [4,5],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 3,
-      "releaseYear" : 2011
-    },
-    {
-      "localized_name": "Disruptor",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/disruptor_full.png",
-      "name": "npc_dota_hero_disruptor",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/disruptor_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/disruptor_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/disruptor_vert.jpg",
-      "id": 87,
-      "gender" : 1,
-      "species" : ["oglodi"],
-      "position" : [4,5],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2007
+      "url_full_portrait": "https://dotadle.net/img/Alchemist.41733f7e.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Alchemist.41733f7e.webp",
+      "url_large_portrait": "https://dotadle.net/img/Alchemist.41733f7e.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Alchemist.41733f7e.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Keen",
+        "Ogre"
+      ],
+      "position": [
+        "Carry",
+        "Midlane",
+        "Offlane"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2006",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
     },
     {
       "localized_name": "Nyx Assassin",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/nyx_assassin_full.png",
-      "name": "npc_dota_hero_nyx_assassin",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/nyx_assassin_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/nyx_assassin_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/nyx_assassin_vert.jpg",
-      "id": 88,
-      "gender" : 1,
-      "species" : ["scarab"],
-      "position" : [4,5],
-      "attribute" : 4,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Naga Siren",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/naga_siren_full.png",
-      "name": "npc_dota_hero_naga_siren",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/naga_siren_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/naga_siren_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/naga_siren_vert.jpg",
-      "id": 89,
-      "gender" : 2,
-      "species" : ["meranth"],
-      "position" : [1],
-      "attribute" : 1,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Keeper of the Light",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/keeper_of_the_light_full.png",
-      "name": "npc_dota_hero_keeper_of_the_light",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/keeper_of_the_light_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/keeper_of_the_light_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/keeper_of_the_light_vert.jpg",
-      "id": 90,
-      "gender" : 1,
-      "species" : ["fundamental, human"],
-      "position" : [4,5],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Io",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/wisp_full.png",
+      "url_full_portrait": "https://dotadle.net/img/NyxAssassin.20c4954e.webp",
       "name": "npc_dota_hero_wisp",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/wisp_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/wisp_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/wisp_vert.jpg",
-      "id": 91,
-      "gender" : 3,
-      "species" : ["fundamental"],
-      "position" : [4,5],
-      "attribute" : 4,
-      "rangeType" : 2,
-      "complexity" : 3,
-      "releaseYear" : 2010
-    },
-    {
-      "localized_name": "Visage",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/visage_full.png",
-      "name": "npc_dota_hero_visage",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/visage_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/visage_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/visage_vert.jpg",
-      "id": 92,
-      "gender" : 1,
-      "species" : ["gargoyle,undead"],
-      "position" : [2,3],
-      "attribute" : 4,
-      "rangeType" : 2,
-      "complexity" : 3,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Slark",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/slark_full.png",
-      "name": "npc_dota_hero_slark",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/slark_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/slark_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/slark_vert.jpg",
-      "id": 93,
-      "gender" : 1,
-      "species" : ["meranth"],
-      "position" : [1],
-      "attribute" : 1,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2009
-    },
-    {
-      "localized_name": "Medusa",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/medusa_full.png",
-      "name": "npc_dota_hero_medusa",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/medusa_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/medusa_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/medusa_vert.jpg",
-      "id": 94,
-      "gender" : 2,
-      "species" : ["gorgon"],
-      "position" : [1,2],
-      "attribute" : 1,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Troll Warlord",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/troll_warlord_full.png",
-      "name": "npc_dota_hero_troll_warlord",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/troll_warlord_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/troll_warlord_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/troll_warlord_vert.jpg",
-      "id": 95,
-      "gender" : 1,
-      "species" : ["troll"],
-      "position" : [1],
-      "attribute" : 1,
-      "rangeType" : 3,
-      "complexity" : 2,
-      "releaseYear" : 2013
-    },
-    {
-      "localized_name": "Centaur Warrunner",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/centaur_full.png",
-      "name": "npc_dota_hero_centaur",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/centaur_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/centaur_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/centaur_vert.jpg",
-      "id": 96,
-      "gender" : 1,
-      "species" : ["centaur"],
-      "position" : [3],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Magnus",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/magnataur_full.png",
-      "name": "npc_dota_hero_magnataur",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/magnataur_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/magnataur_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/magnataur_vert.jpg",
-      "id": 97,
-      "gender" : 1,
-      "species" : ["magnoceros"],
-      "position" : [3],
-      "attribute" : 4,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Timbersaw",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/shredder_full.png",
-      "name": "npc_dota_hero_shredder",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/shredder_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/shredder_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/shredder_vert.jpg",
-      "id": 98,
-      "gender" : 1,
-      "species" : ["keen"],
-      "position" : [2,3],
-      "attribute" : 4,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2011
-    },
-    {
-      "localized_name": "Bristleback",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/bristleback_full.png",
-      "name": "npc_dota_hero_bristleback",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/bristleback_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/bristleback_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/bristleback_vert.jpg",
-      "id": 99,
-      "gender" : 1,
-      "species" : ["unknown"],
-      "position" : [3],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2005
-    },
-    {
-      "localized_name": "Tusk",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/tusk_full.png",
-      "name": "npc_dota_hero_tusk",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/tusk_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/tusk_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/tusk_vert.jpg",
-      "id": 100,
-      "gender" : 1,
-      "species" : ["tusk"],
-      "position" : [3,4],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2010
-    },
-    {
-      "localized_name": "Skywrath Mage",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/skywrath_mage_full.png",
-      "name": "npc_dota_hero_skywrath_mage",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/skywrath_mage_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/skywrath_mage_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/skywrath_mage_vert.jpg",
-      "id": 101,
-      "gender" : 1,
-      "species" : ["skywrath"],
-      "position" : [4,5],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2011
+      "url_small_portrait": "https://dotadle.net/img/NyxAssassin.20c4954e.webp",
+      "url_large_portrait": "https://dotadle.net/img/NyxAssassin.20c4954e.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/NyxAssassin.20c4954e.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Scarab"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
     },
     {
       "localized_name": "Abaddon",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/abaddon_full.png",
-      "name": "npc_dota_hero_abaddon",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/abaddon_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/abaddon_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/abaddon_vert.jpg",
-      "id": 102,
-      "gender" : 1,
-      "species" : ["undead,wrath"],
-      "position" : [3,4,5],
-      "attribute" : 4,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2005
-    },
-    {
-      "localized_name": "Elder Titan",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/elder_titan_full.png",
-      "name": "npc_dota_hero_elder_titan",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/elder_titan_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/elder_titan_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/elder_titan_vert.jpg",
-      "id": 103,
-      "gender" : 1,
-      "species" : ["titan"],
-      "position" : [3,4,5],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2009
-    },
-    {
-      "localized_name": "Legion Commander",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/legion_commander_full.png",
-      "name": "npc_dota_hero_legion_commander",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/legion_commander_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/legion_commander_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/legion_commander_vert.jpg",
-      "id": 104,
-      "gender" : 2,
-      "species" : ["human"],
-      "position" : [3],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2011
-    },
-    {
-      "localized_name": "Ember Spirit",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/ember_spirit_full.png",
-      "name": "npc_dota_hero_ember_spirit",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/ember_spirit_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/ember_spirit_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/ember_spirit_vert.jpg",
-      "id": 106,
-      "gender" : 1,
-      "species" : ["celestial"],
-      "position" : [2],
-      "attribute" : 1,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2011
-    },
-    {
-      "localized_name": "Earth Spirit",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/earth_spirit_full.png",
-      "name": "npc_dota_hero_earth_spirit",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/earth_spirit_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/earth_spirit_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/earth_spirit_vert.jpg",
-      "id": 107,
-      "gender" : 1,
-      "species" : ["celestial"],
-      "position" : [2,4],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 3,
-      "releaseYear" : 2013
-    },
-    {
-      "localized_name": "Terrorblade",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/terrorblade_full.png",
-      "name": "npc_dota_hero_terrorblade",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/terrorblade_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/terrorblade_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/terrorblade_vert.jpg",
-      "id": 109,
-      "gender" : 1,
-      "species" : ["demon"],
-      "position" : [1],
-      "attribute" : 1,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Phoenix",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/phoenix_full.png",
-      "name": "npc_dota_hero_phoenix",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/phoenix_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/phoenix_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/phoenix_vert.jpg",
-      "id": 110,
-      "gender" : 3,
-      "species" : ["star"],
-      "position" : [4,5],
-      "attribute" : 4,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2010
-    },
-    {
-      "localized_name": "Oracle",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/oracle_full.png",
-      "name": "npc_dota_hero_oracle",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/oracle_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/oracle_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/oracle_vert.jpg",
-      "id": 111,
-      "gender" : 1,
-      "species" : ["outer being"],
-      "position" : [4,5],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 3,
-      "releaseYear" : 2012
-    },
-    {
-      "localized_name": "Techies",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/techies_full.png",
-      "name": "npc_dota_hero_techies",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/techies_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/techies_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/techies_vert.jpg",
-      "id": 105,
-      "gender" : 1,
-      "species" : ["keen"],
-      "position" : [4,5],
-      "attribute" : 4,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2004
-    },
-    {
-      "localized_name": "Winter Wyvern",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/winter_wyvern_full.png",
-      "name": "npc_dota_hero_winter_wyvern",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/winter_wyvern_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/winter_wyvern_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/winter_wyvern_vert.jpg",
-      "id": 112,
-      "gender" : 2,
-      "species" : ["dragon"],
-      "position" : [4,5],
-      "attribute" : 4,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2012
+      "url_full_portrait": "https://dotadle.net/img/Abaddon.b3bcfd57.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Abaddon.b3bcfd57.webp",
+      "url_large_portrait": "https://dotadle.net/img/Abaddon.b3bcfd57.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Abaddon.b3bcfd57.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Undead",
+        "Wraith"
+      ],
+      "position": [
+        "Hard Support",
+        "Offlane",
+        "Support"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2005",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
     },
     {
       "localized_name": "Arc Warden",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/arc_warden_full.png",
-      "name": "npc_dota_hero_arc_warden",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/arc_warden_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/arc_warden_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/arc_warden_vert.jpg",
-      "id": 113,
-      "gender" : 3,
-      "species" : ["ancient"],
-      "position" : [2],
-      "attribute" : 1,
-      "rangeType" : 2,
-      "complexity" : 3,
-      "releaseYear" : 2012
+      "url_full_portrait": "https://dotadle.net/img/ArcWarden.b1410e84.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/ArcWarden.b1410e84.webp",
+      "url_large_portrait": "https://dotadle.net/img/ArcWarden.b1410e84.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/ArcWarden.b1410e84.webp",
+      "gender": [
+        "Other"
+      ],
+      "species": [
+        "Ancient"
+      ],
+      "position": [
+        "Midlane"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Hard",
+      "releaseYear": "2012",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
     },
     {
-      "localized_name": "Underlord",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/abyssal_underlord_full.png",
-      "name": "npc_dota_hero_abyssal_underlord",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/abyssal_underlord_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/abyssal_underlord_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/abyssal_underlord_vert.jpg",
-      "id": 108,
-      "gender" : 1,
-      "species" : ["demon"],
-      "position" : [3],
-      "attribute" : 2,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2007
+      "localized_name": "Bane",
+      "url_full_portrait": "https://dotadle.net/img/Bane.0eaaad17.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Bane.0eaaad17.webp",
+      "url_large_portrait": "https://dotadle.net/img/Bane.0eaaad17.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Bane.0eaaad17.webp",
+      "gender": [
+        "Other"
+      ],
+      "species": [
+        "Elemental"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
     },
     {
-      "localized_name": "Monkey King",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/monkey_king_full.png",
-      "name": "npc_dota_hero_monkey_king",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/monkey_king_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/monkey_king_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/monkey_king_vert.jpg",
-      "id": 114,
-      "gender" : 1,
-      "species" : ["god,monkey"],
-      "position" : [1,2],
-      "attribute" : 1,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2016
+      "localized_name": "Bloodseeker",
+      "url_full_portrait": "https://dotadle.net/img/Bloodseeker.5abb07b9.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Bloodseeker.5abb07b9.webp",
+      "url_large_portrait": "https://dotadle.net/img/Bloodseeker.5abb07b9.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Bloodseeker.5abb07b9.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Human"
+      ],
+      "position": [
+        "Carry"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2005",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
     },
     {
-      "localized_name": "Pangolier",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/pangolier_full.png",
-      "name": "npc_dota_hero_pangolier",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/pangolier_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/pangolier_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/pangolier_vert.jpg",
-      "id": 120,
-      "gender" : 1,
-      "species" : ["pangolier"],
-      "position" : [2,3],
-      "attribute" : 4,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2017
+      "localized_name": "Beastmaster",
+      "url_full_portrait": "https://dotadle.net/img/Beastmaster.e5f16619.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Beastmaster.e5f16619.webp",
+      "url_large_portrait": "https://dotadle.net/img/Beastmaster.e5f16619.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Beastmaster.e5f16619.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Human"
+      ],
+      "position": [
+        "Offlane"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2006",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Broodmother",
+      "url_full_portrait": "https://dotadle.net/img/Broodmother.c0ff76e0.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Broodmother.c0ff76e0.webp",
+      "url_large_portrait": "https://dotadle.net/img/Broodmother.c0ff76e0.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Broodmother.c0ff76e0.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Spider"
+      ],
+      "position": [
+        "Midlane",
+        "Offlane"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Bounty Hunter",
+      "url_full_portrait": "https://dotadle.net/img/BountyHunter.418ef085.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/BountyHunter.418ef085.webp",
+      "url_large_portrait": "https://dotadle.net/img/BountyHunter.418ef085.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/BountyHunter.418ef085.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Unknown"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Batrider",
+      "url_full_portrait": "https://dotadle.net/img/Batrider.080d727a.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Batrider.080d727a.webp",
+      "url_large_portrait": "https://dotadle.net/img/Batrider.080d727a.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Batrider.080d727a.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Troll"
+      ],
+      "position": [
+        "Hard Support",
+        "Midlane",
+        "Support"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2009",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Spirit Breaker",
+      "url_full_portrait": "https://dotadle.net/img/SpiritBreaker.6a78f07f.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/SpiritBreaker.6a78f07f.webp",
+      "url_large_portrait": "https://dotadle.net/img/SpiritBreaker.6a78f07f.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/SpiritBreaker.6a78f07f.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Elemental"
+      ],
+      "position": [
+        "Offlane",
+        "Support"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2005",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Brewmaster",
+      "url_full_portrait": "https://dotadle.net/img/Brewmaster.d560e53e.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Brewmaster.d560e53e.webp",
+      "url_large_portrait": "https://dotadle.net/img/Brewmaster.d560e53e.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Brewmaster.d560e53e.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Celestial"
+      ],
+      "position": [
+        "Offlane"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Hard",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Bristleback",
+      "url_full_portrait": "https://dotadle.net/img/Bristleback.da061188.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Bristleback.da061188.webp",
+      "url_large_portrait": "https://dotadle.net/img/Bristleback.da061188.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Bristleback.da061188.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Unknown"
+      ],
+      "position": [
+        "Offlane"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2005",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Primal Beast",
+      "url_full_portrait": "https://dotadle.net/img/PrimalBeast.2828bf51.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/PrimalBeast.2828bf51.webp",
+      "url_large_portrait": "https://dotadle.net/img/PrimalBeast.2828bf51.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/PrimalBeast.2828bf51.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Outer Being"
+      ],
+      "position": [
+        "Midlane",
+        "Offlane"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2022",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Crystal Maiden",
+      "url_full_portrait": "https://dotadle.net/img/CrystalMaiden.1b5dc251.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/CrystalMaiden.1b5dc251.webp",
+      "url_large_portrait": "https://dotadle.net/img/CrystalMaiden.1b5dc251.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/CrystalMaiden.1b5dc251.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Human"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Clockwerk",
+      "url_full_portrait": "https://dotadle.net/img/Clockwerk.a68c2ac4.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Clockwerk.a68c2ac4.webp",
+      "url_large_portrait": "https://dotadle.net/img/Clockwerk.a68c2ac4.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Clockwerk.a68c2ac4.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Keen"
+      ],
+      "position": [
+        "Hard Support",
+        "Offlane",
+        "Support"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2008",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Clinkz",
+      "url_full_portrait": "https://dotadle.net/img/Clinkz.f3caf8f0.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Clinkz.f3caf8f0.webp",
+      "url_large_portrait": "https://dotadle.net/img/Clinkz.f3caf8f0.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Clinkz.f3caf8f0.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Undead",
+        "Unknown"
+      ],
+      "position": [
+        "Midlane",
+        "Support"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Chen",
+      "url_full_portrait": "https://dotadle.net/img/Chen.2ddfacce.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Chen.2ddfacce.webp",
+      "url_large_portrait": "https://dotadle.net/img/Chen.2ddfacce.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Chen.2ddfacce.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Human"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Hard",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Chaos Knight",
+      "url_full_portrait": "https://dotadle.net/img/ChaosKnight.15b9bad2.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/ChaosKnight.15b9bad2.webp",
+      "url_large_portrait": "https://dotadle.net/img/ChaosKnight.15b9bad2.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/ChaosKnight.15b9bad2.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Demon",
+        "Fundamental"
+      ],
+      "position": [
+        "Carry",
+        "Offlane"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Centaur Warrunner",
+      "url_full_portrait": "https://dotadle.net/img/CentaurWarrunner.66fa07d2.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/CentaurWarrunner.66fa07d2.webp",
+      "url_large_portrait": "https://dotadle.net/img/CentaurWarrunner.66fa07d2.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/CentaurWarrunner.66fa07d2.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Centaur"
+      ],
+      "position": [
+        "Offlane"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Legion Commander",
+      "url_full_portrait": "https://dotadle.net/img/LegionCommander.e634dd78.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/LegionCommander.e634dd78.webp",
+      "url_large_portrait": "https://dotadle.net/img/LegionCommander.e634dd78.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/LegionCommander.e634dd78.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Human"
+      ],
+      "position": [
+        "Offlane"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2011",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Drow Ranger",
+      "url_full_portrait": "https://dotadle.net/img/DrowRanger.cdb0c05a.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/DrowRanger.cdb0c05a.webp",
+      "url_large_portrait": "https://dotadle.net/img/DrowRanger.cdb0c05a.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/DrowRanger.cdb0c05a.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Human",
+        "Undead"
+      ],
+      "position": [
+        "Carry"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Witch Doctor",
+      "url_full_portrait": "https://dotadle.net/img/WitchDoctor.c79997c1.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/WitchDoctor.c79997c1.webp",
+      "url_large_portrait": "https://dotadle.net/img/WitchDoctor.c79997c1.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/WitchDoctor.c79997c1.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Troll"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2006",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Death Prophet",
+      "url_full_portrait": "https://dotadle.net/img/DeathProphet.41ff44ae.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/DeathProphet.41ff44ae.webp",
+      "url_large_portrait": "https://dotadle.net/img/DeathProphet.41ff44ae.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/DeathProphet.41ff44ae.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Undead",
+        "Wraith"
+      ],
+      "position": [
+        "Midlane",
+        "Offlane"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Dragon Knight",
+      "url_full_portrait": "https://dotadle.net/img/DragonKnight.bebc9ed2.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/DragonKnight.bebc9ed2.webp",
+      "url_large_portrait": "https://dotadle.net/img/DragonKnight.bebc9ed2.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/DragonKnight.bebc9ed2.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Dragon",
+        "Human"
+      ],
+      "position": [
+        "Midlane",
+        "Offlane"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Dazzle",
+      "url_full_portrait": "https://dotadle.net/img/Dazzle.42f96a2d.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Dazzle.42f96a2d.webp",
+      "url_large_portrait": "https://dotadle.net/img/Dazzle.42f96a2d.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Dazzle.42f96a2d.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Troll"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2005",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Dark Seer",
+      "url_full_portrait": "https://dotadle.net/img/DarkSeer.7b71ac36.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/DarkSeer.7b71ac36.webp",
+      "url_large_portrait": "https://dotadle.net/img/DarkSeer.7b71ac36.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/DarkSeer.7b71ac36.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Outer Being"
+      ],
+      "position": [
+        "Offlane",
+        "Support"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2007",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Doom",
+      "url_full_portrait": "https://dotadle.net/img/Doom.f5c67f81.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Doom.f5c67f81.webp",
+      "url_large_portrait": "https://dotadle.net/img/Doom.f5c67f81.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Doom.f5c67f81.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Demon"
+      ],
+      "position": [
+        "Offlane"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Outworld Destroyer",
+      "url_full_portrait": "https://dotadle.net/img/OutworldDestroyer.c123c939.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/OutworldDestroyer.c123c939.webp",
+      "url_large_portrait": "https://dotadle.net/img/OutworldDestroyer.c123c939.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/OutworldDestroyer.c123c939.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Outer Being"
+      ],
+      "position": [
+        "Midlane"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2006",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Shadow Demon",
+      "url_full_portrait": "https://dotadle.net/img/ShadowDemon.5c2cd4cf.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/ShadowDemon.5c2cd4cf.webp",
+      "url_large_portrait": "https://dotadle.net/img/ShadowDemon.5c2cd4cf.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/ShadowDemon.5c2cd4cf.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Demon"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2010",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Lone Druid",
+      "url_full_portrait": "https://dotadle.net/img/LoneDruid.1a7ca51f.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/LoneDruid.1a7ca51f.webp",
+      "url_large_portrait": "https://dotadle.net/img/LoneDruid.1a7ca51f.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/LoneDruid.1a7ca51f.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Druid",
+        "Human"
+      ],
+      "position": [
+        "Midlane",
+        "Offlane"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Hard",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Disruptor",
+      "url_full_portrait": "https://dotadle.net/img/Disruptor.53c7e482.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Disruptor.53c7e482.webp",
+      "url_large_portrait": "https://dotadle.net/img/Disruptor.53c7e482.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Disruptor.53c7e482.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Oglodi"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2007",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
     },
     {
       "localized_name": "Dark Willow",
-      "url_full_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_willow_full.png",
-      "name": "npc_dota_hero_dark_willow",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_willow_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_willow_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_willow_vert.jpg",
-      "id": 119,
-      "gender" : 2,
-      "species" : ["fae"],
-      "position" : [4,5],
-      "attribute" : 4,
-      "rangeType" : 2,
-      "complexity" : 2,
-      "releaseYear" : 2017
+      "url_full_portrait": "https://dotadle.net/img/DarkWillow.656c3344.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/DarkWillow.656c3344.webp",
+      "url_large_portrait": "https://dotadle.net/img/DarkWillow.656c3344.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/DarkWillow.656c3344.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Fae"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2017",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
     },
     {
-      "localized_name": "Muerta",
-      "url_full_portrait": "https://cdn.vox-cdn.com/thumbor/mwPEfeu_ctRPbXKmsaRnPizeDWo=/1400x1400/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/24155923/Dota_2___Muerta_0_35_screenshot.png",
-      "name": "npc_dota_hero_muerta",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_willow_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_willow_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_willow_vert.jpg",
-      "id": 121,
-      "gender" : 2,
-      "species" : ["undead,wrath"],
-      "position" : [1,2],
-      "attribute" : 3,
-      "rangeType" : 2,
-      "complexity" : 1,
-      "releaseYear" : 2023
+      "localized_name": "Dawnbreaker",
+      "url_full_portrait": "https://dotadle.net/img/Dawnbreaker.0f5e0070.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Dawnbreaker.0f5e0070.webp",
+      "url_large_portrait": "https://dotadle.net/img/Dawnbreaker.0f5e0070.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Dawnbreaker.0f5e0070.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Star"
+      ],
+      "position": [
+        "Offlane"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2021",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
     },
     {
-      "localized_name": "Marci",
-      "url_full_portrait": "https://s.yimg.com/ny/api/res/1.2/jBIwb5Y4MBkIH3fiW4f0HA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MA--/https://s.yimg.com/os/creatr-uploaded-images/2021-10/ffac3450-2e80-11ec-b6f5-16b9583ba0cb",
-      "name": "npc_dota_hero_marci",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_willow_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_willow_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_willow_vert.jpg",
-      "id": 122,
-      "gender" : 2,
-      "species" : ["human"],
-      "position" : [3,4,5],
-      "attribute" : 4,
-      "rangeType" : 1,
-      "complexity" : 2,
-      "releaseYear" : 2021
+      "localized_name": "Earthshaker",
+      "url_full_portrait": "https://dotadle.net/img/Earthshaker.66d8fd27.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Earthshaker.66d8fd27.webp",
+      "url_large_portrait": "https://dotadle.net/img/Earthshaker.66d8fd27.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Earthshaker.66d8fd27.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Elemental"
+      ],
+      "position": [
+        "Offlane",
+        "Support"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2005",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Enigma",
+      "url_full_portrait": "https://dotadle.net/img/Enigma.f172c40e.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Enigma.f172c40e.webp",
+      "url_large_portrait": "https://dotadle.net/img/Enigma.f172c40e.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Enigma.f172c40e.webp",
+      "gender": [
+        "Other"
+      ],
+      "species": [
+        "Fundamental"
+      ],
+      "position": [
+        "Hard Support",
+        "Offlane",
+        "Support"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2005",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Enchantress",
+      "url_full_portrait": "https://dotadle.net/img/Enchantress.88064d46.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Enchantress.88064d46.webp",
+      "url_large_portrait": "https://dotadle.net/img/Enchantress.88064d46.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Enchantress.88064d46.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Unknown"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2005",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Elder Titan",
+      "url_full_portrait": "https://dotadle.net/img/ElderTitan.974f86d9.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/ElderTitan.974f86d9.webp",
+      "url_large_portrait": "https://dotadle.net/img/ElderTitan.974f86d9.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/ElderTitan.974f86d9.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Titan"
+      ],
+      "position": [
+        "Hard Support",
+        "Offlane",
+        "Support"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2009",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Ember Spirit",
+      "url_full_portrait": "https://dotadle.net/img/EmberSpirit.ed5c8d47.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/EmberSpirit.ed5c8d47.webp",
+      "url_large_portrait": "https://dotadle.net/img/EmberSpirit.ed5c8d47.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/EmberSpirit.ed5c8d47.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Celestial"
+      ],
+      "position": [
+        "Midlane"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2011",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Earth Spirit",
+      "url_full_portrait": "https://dotadle.net/img/EarthSpirit.666fd0fd.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/EarthSpirit.666fd0fd.webp",
+      "url_large_portrait": "https://dotadle.net/img/EarthSpirit.666fd0fd.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/EarthSpirit.666fd0fd.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Celestial"
+      ],
+      "position": [
+        "Midlane",
+        "Support"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Hard",
+      "releaseYear": "2013",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Shadow Fiend",
+      "url_full_portrait": "https://dotadle.net/img/ShadowFiend.6890e42a.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/ShadowFiend.6890e42a.webp",
+      "url_large_portrait": "https://dotadle.net/img/ShadowFiend.6890e42a.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/ShadowFiend.6890e42a.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Demon"
+      ],
+      "position": [
+        "Carry",
+        "Midlane"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2005",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Faceless Void",
+      "url_full_portrait": "https://dotadle.net/img/FacelessVoid.5a2156c5.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/FacelessVoid.5a2156c5.webp",
+      "url_large_portrait": "https://dotadle.net/img/FacelessVoid.5a2156c5.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/FacelessVoid.5a2156c5.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Outer Being"
+      ],
+      "position": [
+        "Carry"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Gyrocopter",
+      "url_full_portrait": "https://dotadle.net/img/Gyrocopter.d7221c52.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Gyrocopter.d7221c52.webp",
+      "url_large_portrait": "https://dotadle.net/img/Gyrocopter.d7221c52.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Gyrocopter.d7221c52.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Keen"
+      ],
+      "position": [
+        "Carry"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2010",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Grimstroke",
+      "url_full_portrait": "https://dotadle.net/img/Grimstroke.fc391a55.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Grimstroke.fc391a55.webp",
+      "url_large_portrait": "https://dotadle.net/img/Grimstroke.fc391a55.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Grimstroke.fc391a55.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Human",
+        "Magically altered"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2018",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Huskar",
+      "url_full_portrait": "https://dotadle.net/img/Huskar.a3051d4a.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Huskar.a3051d4a.webp",
+      "url_large_portrait": "https://dotadle.net/img/Huskar.a3051d4a.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Huskar.a3051d4a.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Troll"
+      ],
+      "position": [
+        "Midlane",
+        "Offlane"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2007",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Hoodwink",
+      "url_full_portrait": "https://dotadle.net/img/Hoodwink.0b108e8b.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Hoodwink.0b108e8b.webp",
+      "url_large_portrait": "https://dotadle.net/img/Hoodwink.0b108e8b.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Hoodwink.0b108e8b.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Unknown"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2020",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Invoker",
+      "url_full_portrait": "https://dotadle.net/img/Invoker.9ade14f3.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Invoker.9ade14f3.webp",
+      "url_large_portrait": "https://dotadle.net/img/Invoker.9ade14f3.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Invoker.9ade14f3.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Human",
+        "Magicborn"
+      ],
+      "position": [
+        "Midlane",
+        "Support"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Hard",
+      "releaseYear": "2005",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Io",
+      "url_full_portrait": "https://dotadle.net/img/Io.50a56387.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Io.50a56387.webp",
+      "url_large_portrait": "https://dotadle.net/img/Io.50a56387.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Io.50a56387.webp",
+      "gender": [
+        "Other"
+      ],
+      "species": [
+        "Fundamental"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Hard",
+      "releaseYear": "2010",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Juggernaut",
+      "url_full_portrait": "https://dotadle.net/img/Juggernaut.00d1fe95.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Juggernaut.00d1fe95.webp",
+      "url_large_portrait": "https://dotadle.net/img/Juggernaut.00d1fe95.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Juggernaut.00d1fe95.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Human",
+        "Masked One"
+      ],
+      "position": [
+        "Carry"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Jakiro",
+      "url_full_portrait": "https://dotadle.net/img/Jakiro.54e11b8b.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Jakiro.54e11b8b.webp",
+      "url_large_portrait": "https://dotadle.net/img/Jakiro.54e11b8b.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Jakiro.54e11b8b.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Dragon"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2006",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Sand King",
+      "url_full_portrait": "https://dotadle.net/img/SandKing.ac1e64fa.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/SandKing.ac1e64fa.webp",
+      "url_large_portrait": "https://dotadle.net/img/SandKing.ac1e64fa.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/SandKing.ac1e64fa.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Elemental"
+      ],
+      "position": [
+        "Offlane"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Kunkka",
+      "url_full_portrait": "https://dotadle.net/img/Kunkka.4de0b662.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Kunkka.4de0b662.webp",
+      "url_large_portrait": "https://dotadle.net/img/Kunkka.4de0b662.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Kunkka.4de0b662.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Human"
+      ],
+      "position": [
+        "Midlane",
+        "Offlane"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2008",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Wraith King",
+      "url_full_portrait": "https://dotadle.net/img/WraithKing.ad14ee1f.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/WraithKing.ad14ee1f.webp",
+      "url_large_portrait": "https://dotadle.net/img/WraithKing.ad14ee1f.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/WraithKing.ad14ee1f.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Undead",
+        "Wraith"
+      ],
+      "position": [
+        "Carry",
+        "Offlane"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Keeper of the Light",
+      "url_full_portrait": "https://dotadle.net/img/KeeperoftheLight.2f480a0a.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/KeeperoftheLight.2f480a0a.webp",
+      "url_large_portrait": "https://dotadle.net/img/KeeperoftheLight.2f480a0a.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/KeeperoftheLight.2f480a0a.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Fundamental",
+        "Human"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Monkey King",
+      "url_full_portrait": "https://dotadle.net/img/MonkeyKing.8c13527c.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/MonkeyKing.8c13527c.webp",
+      "url_large_portrait": "https://dotadle.net/img/MonkeyKing.8c13527c.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/MonkeyKing.8c13527c.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "God",
+        "Monkey"
+      ],
+      "position": [
+        "Carry",
+        "Midlane"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2016",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Phantom Lancer",
+      "url_full_portrait": "https://dotadle.net/img/PhantomLancer.f7b68bf8.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/PhantomLancer.f7b68bf8.webp",
+      "url_large_portrait": "https://dotadle.net/img/PhantomLancer.f7b68bf8.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/PhantomLancer.f7b68bf8.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Unknown"
+      ],
+      "position": [
+        "Carry"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2005",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Lina",
+      "url_full_portrait": "https://dotadle.net/img/Lina.40a48f06.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Lina.40a48f06.webp",
+      "url_large_portrait": "https://dotadle.net/img/Lina.40a48f06.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Lina.40a48f06.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Human"
+      ],
+      "position": [
+        "Midlane",
+        "Support"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Lion",
+      "url_full_portrait": "https://dotadle.net/img/Lion.d1d25b8e.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Lion.d1d25b8e.webp",
+      "url_large_portrait": "https://dotadle.net/img/Lion.d1d25b8e.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Lion.d1d25b8e.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Demon"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Lich",
+      "url_full_portrait": "https://dotadle.net/img/Lich.7f9e3e9a.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Lich.7f9e3e9a.webp",
+      "url_large_portrait": "https://dotadle.net/img/Lich.7f9e3e9a.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Lich.7f9e3e9a.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Undead"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Luna",
+      "url_full_portrait": "https://dotadle.net/img/Luna.74e016ef.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Luna.74e016ef.webp",
+      "url_large_portrait": "https://dotadle.net/img/Luna.74e016ef.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Luna.74e016ef.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Human"
+      ],
+      "position": [
+        "Carry"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Leshrac",
+      "url_full_portrait": "https://dotadle.net/img/Leshrac.b4283dc7.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Leshrac.b4283dc7.webp",
+      "url_large_portrait": "https://dotadle.net/img/Leshrac.b4283dc7.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Leshrac.b4283dc7.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Elemental"
+      ],
+      "position": [
+        "Midlane"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Lifestealer",
+      "url_full_portrait": "https://dotadle.net/img/Lifestealer.915c9246.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Lifestealer.915c9246.webp",
+      "url_large_portrait": "https://dotadle.net/img/Lifestealer.915c9246.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Lifestealer.915c9246.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Oglodi"
+      ],
+      "position": [
+        "Carry",
+        "Offlane"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Lycan",
+      "url_full_portrait": "https://dotadle.net/img/Lycan.a9889f38.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Lycan.a9889f38.webp",
+      "url_large_portrait": "https://dotadle.net/img/Lycan.a9889f38.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Lycan.a9889f38.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Human",
+        "Wolf"
+      ],
+      "position": [
+        "Offlane"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Mirana",
+      "url_full_portrait": "https://dotadle.net/img/Mirana.76f340fe.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Mirana.76f340fe.webp",
+      "url_large_portrait": "https://dotadle.net/img/Mirana.76f340fe.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Mirana.76f340fe.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Human"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2006",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Morphling",
+      "url_full_portrait": "https://dotadle.net/img/Morphling.1eb6d1c6.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Morphling.1eb6d1c6.webp",
+      "url_large_portrait": "https://dotadle.net/img/Morphling.1eb6d1c6.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Morphling.1eb6d1c6.webp",
+      "gender": [
+        "Other"
+      ],
+      "species": [
+        "Elemental"
+      ],
+      "position": [
+        "Carry",
+        "Midlane"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Hard",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Meepo",
+      "url_full_portrait": "https://dotadle.net/img/Meepo.e430ff1a.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Meepo.e430ff1a.webp",
+      "url_large_portrait": "https://dotadle.net/img/Meepo.e430ff1a.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Meepo.e430ff1a.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Unknown"
+      ],
+      "position": [
+        "Midlane"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Hard",
+      "releaseYear": "2007",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Ogre Magi",
+      "url_full_portrait": "https://dotadle.net/img/OgreMagi.f8d0952a.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/OgreMagi.f8d0952a.webp",
+      "url_large_portrait": "https://dotadle.net/img/OgreMagi.f8d0952a.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/OgreMagi.f8d0952a.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Ogre"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Medusa",
+      "url_full_portrait": "https://dotadle.net/img/Medusa.fc038c52.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Medusa.fc038c52.webp",
+      "url_large_portrait": "https://dotadle.net/img/Medusa.fc038c52.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Medusa.fc038c52.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Gorgon"
+      ],
+      "position": [
+        "Carry",
+        "Midlane"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Magnus",
+      "url_full_portrait": "https://dotadle.net/img/Magnus.c68b19d4.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Magnus.c68b19d4.webp",
+      "url_large_portrait": "https://dotadle.net/img/Magnus.c68b19d4.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Magnus.c68b19d4.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Magnoceros"
+      ],
+      "position": [
+        "Offlane"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Skywrath Mage",
+      "url_full_portrait": "https://dotadle.net/img/SkywrathMage.721e0293.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/SkywrathMage.721e0293.webp",
+      "url_large_portrait": "https://dotadle.net/img/SkywrathMage.721e0293.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/SkywrathMage.721e0293.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Skywrath"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2011",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
     },
     {
       "localized_name": "Mars",
-      "url_full_portrait": "https://i.ytimg.com/vi/C59LWzqboUQ/sddefault.jpg",
-      "name": "npc_dota_hero_mars",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_willow_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_willow_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_willow_vert.jpg",
-      "id": 123,
-      "gender" : 2,
-      "species" : ["god"],
-      "position" : [3],
-      "attribute" : 1,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2019
+      "url_full_portrait": "https://dotadle.net/img/Mars.82b11047.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Mars.82b11047.webp",
+      "url_large_portrait": "https://dotadle.net/img/Mars.82b11047.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Mars.82b11047.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "God"
+      ],
+      "position": [
+        "Offlane"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2019",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
     },
     {
-      "localized_name": "DawnBreaker",
-      "url_full_portrait": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/04/b779c0bfa98e5ab82b8b6efc534e0834153b0acd.jpg",
-      "name": "npc_dota_hero_dawnbreaker",
-      "url_small_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_willow_sb.png",
-      "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_willow_lg.png",
-      "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_willow_vert.jpg",
-      "id": 124,
-      "gender" : 2,
-      "species" : ["star"],
-      "position" : [3],
-      "attribute" : 1,
-      "rangeType" : 1,
-      "complexity" : 1,
-      "releaseYear" : 2021
+      "localized_name": "Marci",
+      "url_full_portrait": "https://dotadle.net/img/Marci.52f6ec3d.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Marci.52f6ec3d.webp",
+      "url_large_portrait": "https://dotadle.net/img/Marci.52f6ec3d.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Marci.52f6ec3d.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Human"
+      ],
+      "position": [
+        "Hard Support",
+        "Offlane",
+        "Support"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2021",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Muerta",
+      "url_full_portrait": "https://dotadle.net/img/Muerta.592adfbb.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Muerta.592adfbb.webp",
+      "url_large_portrait": "https://dotadle.net/img/Muerta.592adfbb.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Muerta.592adfbb.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Undead",
+        "Wraith"
+      ],
+      "position": [
+        "Carry",
+        "Midlane"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2023",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Necrophos",
+      "url_full_portrait": "https://dotadle.net/img/Necrophos.0813dea3.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Necrophos.0813dea3.webp",
+      "url_large_portrait": "https://dotadle.net/img/Necrophos.0813dea3.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Necrophos.0813dea3.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Human",
+        "Magically altered",
+        "Undead"
+      ],
+      "position": [
+        "Midlane",
+        "Offlane"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Nature's Prophet",
+      "url_full_portrait": "https://dotadle.net/img/NaturesProphet.300d4916.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/NaturesProphet.300d4916.webp",
+      "url_large_portrait": "https://dotadle.net/img/NaturesProphet.300d4916.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/NaturesProphet.300d4916.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Nature's Prophet"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Night Stalker",
+      "url_full_portrait": "https://dotadle.net/img/NightStalker.35c6e39f.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/NightStalker.35c6e39f.webp",
+      "url_large_portrait": "https://dotadle.net/img/NightStalker.35c6e39f.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/NightStalker.35c6e39f.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Creature of Darkness"
+      ],
+      "position": [
+        "Offlane"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Naga Siren",
+      "url_full_portrait": "https://dotadle.net/img/NagaSiren.3a984505.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/NagaSiren.3a984505.webp",
+      "url_large_portrait": "https://dotadle.net/img/NagaSiren.3a984505.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/NagaSiren.3a984505.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Meranth"
+      ],
+      "position": [
+        "Carry"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Queen of Pain",
+      "url_full_portrait": "https://dotadle.net/img/QueenofPain.3bbf83ca.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/QueenofPain.3bbf83ca.webp",
+      "url_large_portrait": "https://dotadle.net/img/QueenofPain.3bbf83ca.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/QueenofPain.3bbf83ca.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Demon"
+      ],
+      "position": [
+        "Midlane"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Omniknight",
+      "url_full_portrait": "https://dotadle.net/img/Omniknight.0f341bf4.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Omniknight.0f341bf4.webp",
+      "url_large_portrait": "https://dotadle.net/img/Omniknight.0f341bf4.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Omniknight.0f341bf4.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Human"
+      ],
+      "position": [
+        "Offlane",
+        "Support"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Oracle",
+      "url_full_portrait": "https://dotadle.net/img/Oracle.82208391.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Oracle.82208391.webp",
+      "url_large_portrait": "https://dotadle.net/img/Oracle.82208391.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Oracle.82208391.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Outer Being"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Hard",
+      "releaseYear": "2012",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Pudge",
+      "url_full_portrait": "https://dotadle.net/img/Pudge.1568d87a.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Pudge.1568d87a.webp",
+      "url_large_portrait": "https://dotadle.net/img/Pudge.1568d87a.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Pudge.1568d87a.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Human",
+        "Undead"
+      ],
+      "position": [
+        "Hard Support",
+        "Offlane",
+        "Support"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Pugna",
+      "url_full_portrait": "https://dotadle.net/img/Pugna.51afed6b.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Pugna.51afed6b.webp",
+      "url_large_portrait": "https://dotadle.net/img/Pugna.51afed6b.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Pugna.51afed6b.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Nether Being"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Treant Protector",
+      "url_full_portrait": "https://dotadle.net/img/TreantProtector.01ff57dd.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/TreantProtector.01ff57dd.webp",
+      "url_large_portrait": "https://dotadle.net/img/TreantProtector.01ff57dd.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/TreantProtector.01ff57dd.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Treant"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Phoenix",
+      "url_full_portrait": "https://dotadle.net/img/Phoenix.17608dc6.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Phoenix.17608dc6.webp",
+      "url_large_portrait": "https://dotadle.net/img/Phoenix.17608dc6.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Phoenix.17608dc6.webp",
+      "gender": [
+        "Other"
+      ],
+      "species": [
+        "Star"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2010",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Pangolier",
+      "url_full_portrait": "https://dotadle.net/img/Pangolier.11e2f2ed.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Pangolier.11e2f2ed.webp",
+      "url_large_portrait": "https://dotadle.net/img/Pangolier.11e2f2ed.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Pangolier.11e2f2ed.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Pangolier"
+      ],
+      "position": [
+        "Midlane",
+        "Offlane"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2017",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Razor",
+      "url_full_portrait": "https://dotadle.net/img/Razor.ad62bcd7.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Razor.ad62bcd7.webp",
+      "url_large_portrait": "https://dotadle.net/img/Razor.ad62bcd7.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Razor.ad62bcd7.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Revenant"
+      ],
+      "position": [
+        "Carry",
+        "Midlane",
+        "Offlane"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Riki",
+      "url_full_portrait": "https://dotadle.net/img/Riki.3d963aaf.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Riki.3d963aaf.webp",
+      "url_large_portrait": "https://dotadle.net/img/Riki.3d963aaf.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Riki.3d963aaf.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Satyr"
+      ],
+      "position": [
+        "Carry"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Rubick",
+      "url_full_portrait": "https://dotadle.net/img/Rubick.f7a784d7.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Rubick.f7a784d7.webp",
+      "url_large_portrait": "https://dotadle.net/img/Rubick.f7a784d7.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Rubick.f7a784d7.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Unknown"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Hard",
+      "releaseYear": "2011",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Storm Spirit",
+      "url_full_portrait": "https://dotadle.net/img/StormSpirit.0a2e626d.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/StormSpirit.0a2e626d.webp",
+      "url_large_portrait": "https://dotadle.net/img/StormSpirit.0a2e626d.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/StormSpirit.0a2e626d.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Celestial"
+      ],
+      "position": [
+        "Midlane"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2007",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Sven",
+      "url_full_portrait": "https://dotadle.net/img/Sven.74873822.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Sven.74873822.webp",
+      "url_large_portrait": "https://dotadle.net/img/Sven.74873822.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Sven.74873822.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Human",
+        "Meranth"
+      ],
+      "position": [
+        "Carry"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Vengeful Spirit",
+      "url_full_portrait": "https://dotadle.net/img/VengefulSpirit.a73b7afb.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/VengefulSpirit.a73b7afb.webp",
+      "url_large_portrait": "https://dotadle.net/img/VengefulSpirit.a73b7afb.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/VengefulSpirit.a73b7afb.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Skywrath"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Shadow Shaman",
+      "url_full_portrait": "https://dotadle.net/img/ShadowShaman.0f89a054.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/ShadowShaman.0f89a054.webp",
+      "url_large_portrait": "https://dotadle.net/img/ShadowShaman.0f89a054.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/ShadowShaman.0f89a054.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Troll"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Slardar",
+      "url_full_portrait": "https://dotadle.net/img/Slardar.a536cb31.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Slardar.a536cb31.webp",
+      "url_large_portrait": "https://dotadle.net/img/Slardar.a536cb31.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Slardar.a536cb31.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Meranth"
+      ],
+      "position": [
+        "Offlane"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Sniper",
+      "url_full_portrait": "https://dotadle.net/img/Sniper.05c1a169.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Sniper.05c1a169.webp",
+      "url_large_portrait": "https://dotadle.net/img/Sniper.05c1a169.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Sniper.05c1a169.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Keen"
+      ],
+      "position": [
+        "Carry",
+        "Midlane"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Spectre",
+      "url_full_portrait": "https://dotadle.net/img/Spectre.e207e029.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Spectre.e207e029.webp",
+      "url_large_portrait": "https://dotadle.net/img/Spectre.e207e029.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Spectre.e207e029.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Demon"
+      ],
+      "position": [
+        "Carry"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2006",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Silencer",
+      "url_full_portrait": "https://dotadle.net/img/Silencer.41655c9b.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Silencer.41655c9b.webp",
+      "url_large_portrait": "https://dotadle.net/img/Silencer.41655c9b.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Silencer.41655c9b.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Human"
+      ],
+      "position": [
+        "Hard Support",
+        "Midlane",
+        "Support"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Slark",
+      "url_full_portrait": "https://dotadle.net/img/Slark.0f465fcd.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Slark.0f465fcd.webp",
+      "url_large_portrait": "https://dotadle.net/img/Slark.0f465fcd.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Slark.0f465fcd.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Meranth"
+      ],
+      "position": [
+        "Carry"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2009",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Void Spirit",
+      "url_full_portrait": "https://dotadle.net/img/VoidSpirit.e3453d35.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/VoidSpirit.e3453d35.webp",
+      "url_large_portrait": "https://dotadle.net/img/VoidSpirit.e3453d35.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/VoidSpirit.e3453d35.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Celestial"
+      ],
+      "position": [
+        "Midlane"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2019",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Snapfire",
+      "url_full_portrait": "https://dotadle.net/img/Snapfire.7f92a7d0.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Snapfire.7f92a7d0.webp",
+      "url_large_portrait": "https://dotadle.net/img/Snapfire.7f92a7d0.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Snapfire.7f92a7d0.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Dragon",
+        "Keen"
+      ],
+      "position": [
+        "Hard Support",
+        "Midlane",
+        "Support"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2019",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Tiny",
+      "url_full_portrait": "https://dotadle.net/img/Tiny.9570d5a3.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Tiny.9570d5a3.webp",
+      "url_large_portrait": "https://dotadle.net/img/Tiny.9570d5a3.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Tiny.9570d5a3.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Giant"
+      ],
+      "position": [
+        "Midlane",
+        "Offlane",
+        "Support"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2005",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Tidehunter",
+      "url_full_portrait": "https://dotadle.net/img/Tidehunter.0c0ae6e6.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Tidehunter.0c0ae6e6.webp",
+      "url_large_portrait": "https://dotadle.net/img/Tidehunter.0c0ae6e6.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Tidehunter.0c0ae6e6.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Meranth"
+      ],
+      "position": [
+        "Offlane"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Tinker",
+      "url_full_portrait": "https://dotadle.net/img/Tinker.3dc05f63.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Tinker.3dc05f63.webp",
+      "url_large_portrait": "https://dotadle.net/img/Tinker.3dc05f63.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Tinker.3dc05f63.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Keen"
+      ],
+      "position": [
+        "Midlane"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Troll Warlord",
+      "url_full_portrait": "https://dotadle.net/img/TrollWarlord.54b53f94.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/TrollWarlord.54b53f94.webp",
+      "url_large_portrait": "https://dotadle.net/img/TrollWarlord.54b53f94.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/TrollWarlord.54b53f94.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Troll"
+      ],
+      "position": [
+        "Carry"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Melee",
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2013",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Timbersaw",
+      "url_full_portrait": "https://dotadle.net/img/Timbersaw.50b49ecd.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Timbersaw.50b49ecd.webp",
+      "url_large_portrait": "https://dotadle.net/img/Timbersaw.50b49ecd.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Timbersaw.50b49ecd.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Keen"
+      ],
+      "position": [
+        "Midlane",
+        "Offlane"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2011",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Tusk",
+      "url_full_portrait": "https://dotadle.net/img/Tusk.176a03a8.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Tusk.176a03a8.webp",
+      "url_large_portrait": "https://dotadle.net/img/Tusk.176a03a8.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Tusk.176a03a8.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Tusk"
+      ],
+      "position": [
+        "Offlane",
+        "Support"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2010",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Techies",
+      "url_full_portrait": "https://dotadle.net/img/Techies.f8b2b7b7.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Techies.f8b2b7b7.webp",
+      "url_large_portrait": "https://dotadle.net/img/Techies.f8b2b7b7.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Techies.f8b2b7b7.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Keen"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Terrorblade",
+      "url_full_portrait": "https://dotadle.net/img/Terrorblade.f1731bca.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Terrorblade.f1731bca.webp",
+      "url_large_portrait": "https://dotadle.net/img/Terrorblade.f1731bca.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Terrorblade.f1731bca.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Demon"
+      ],
+      "position": [
+        "Carry"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Ursa",
+      "url_full_portrait": "https://dotadle.net/img/Ursa.165ae804.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Ursa.165ae804.webp",
+      "url_large_portrait": "https://dotadle.net/img/Ursa.165ae804.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Ursa.165ae804.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Ursa"
+      ],
+      "position": [
+        "Carry"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Undying",
+      "url_full_portrait": "https://dotadle.net/img/Undying.ca8ac3e3.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Undying.ca8ac3e3.webp",
+      "url_large_portrait": "https://dotadle.net/img/Undying.ca8ac3e3.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Undying.ca8ac3e3.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Undead"
+      ],
+      "position": [
+        "Hard Support",
+        "Offlane",
+        "Support"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2007",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Underlord",
+      "url_full_portrait": "https://dotadle.net/img/Underlord.c409202e.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Underlord.c409202e.webp",
+      "url_large_portrait": "https://dotadle.net/img/Underlord.c409202e.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Underlord.c409202e.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Demon"
+      ],
+      "position": [
+        "Offlane"
+      ],
+      "attribute": "Strength",
+      "rangeType": [
+        "Melee"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2007",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Venomancer",
+      "url_full_portrait": "https://dotadle.net/img/Venomancer.7793dc89.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Venomancer.7793dc89.webp",
+      "url_large_portrait": "https://dotadle.net/img/Venomancer.7793dc89.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Venomancer.7793dc89.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Venomancer"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Viper",
+      "url_full_portrait": "https://dotadle.net/img/Viper.ab29922d.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Viper.ab29922d.webp",
+      "url_large_portrait": "https://dotadle.net/img/Viper.ab29922d.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Viper.ab29922d.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Dragon",
+        "Nether Being"
+      ],
+      "position": [
+        "Midlane",
+        "Offlane"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Visage",
+      "url_full_portrait": "https://dotadle.net/img/Visage.42109791.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Visage.42109791.webp",
+      "url_large_portrait": "https://dotadle.net/img/Visage.42109791.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Visage.42109791.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Gargoyle",
+        "Undead"
+      ],
+      "position": [
+        "Midlane",
+        "Offlane"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Hard",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Windranger",
+      "url_full_portrait": "https://dotadle.net/img/Windranger.c3cf0263.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Windranger.c3cf0263.webp",
+      "url_large_portrait": "https://dotadle.net/img/Windranger.c3cf0263.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Windranger.c3cf0263.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Human"
+      ],
+      "position": [
+        "Midlane",
+        "Offlane",
+        "Support"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2008",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Warlock",
+      "url_full_portrait": "https://dotadle.net/img/Warlock.99d7eb91.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Warlock.99d7eb91.webp",
+      "url_large_portrait": "https://dotadle.net/img/Warlock.99d7eb91.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Warlock.99d7eb91.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Oglodi"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2006",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Weaver",
+      "url_full_portrait": "https://dotadle.net/img/Weaver.ea5028b5.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Weaver.ea5028b5.webp",
+      "url_large_portrait": "https://dotadle.net/img/Weaver.ea5028b5.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Weaver.ea5028b5.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "Weaver"
+      ],
+      "position": [
+        "Carry"
+      ],
+      "attribute": "Agility",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2005",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Winter Wyvern",
+      "url_full_portrait": "https://dotadle.net/img/WinterWyvern.9eabf075.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/WinterWyvern.9eabf075.webp",
+      "url_large_portrait": "https://dotadle.net/img/WinterWyvern.9eabf075.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/WinterWyvern.9eabf075.webp",
+      "gender": [
+        "Female"
+      ],
+      "species": [
+        "Dragon"
+      ],
+      "position": [
+        "Hard Support",
+        "Support"
+      ],
+      "attribute": "Universal",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2012",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Zeus",
+      "url_full_portrait": "https://dotadle.net/img/Zeus.eed69288.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Zeus.eed69288.webp",
+      "url_large_portrait": "https://dotadle.net/img/Zeus.eed69288.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Zeus.eed69288.webp",
+      "gender": [
+        "Male"
+      ],
+      "species": [
+        "God"
+      ],
+      "position": [
+        "Midlane",
+        "Support"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Easy",
+      "releaseYear": "2004",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
+    },
+    {
+      "localized_name": "Puck",
+      "url_full_portrait": "https://dotadle.net/img/Puck.bc9f8ace.webp",
+      "name": "npc_dota_hero_wisp",
+      "url_small_portrait": "https://dotadle.net/img/Puck.bc9f8ace.webp",
+      "url_large_portrait": "https://dotadle.net/img/Puck.bc9f8ace.webp",
+      "url_vertical_portrait": "https://dotadle.net/img/Puck.bc9f8ace.webp",
+      "gender": [
+        "Other"
+      ],
+      "species": [
+        "Dragon",
+        "Fae"
+      ],
+      "position": [
+        "Midlane"
+      ],
+      "attribute": "Intelligence",
+      "rangeType": [
+        "Ranged"
+      ],
+      "complexity": "Medium",
+      "releaseYear": "2007",
+      "moveStyle": [
+        "Fly",
+        "Walk",
+        "Surge",
+        "Ride",
+        "Crawl"
+      ]
     }
   ]
 }
