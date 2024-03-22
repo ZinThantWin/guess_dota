@@ -1,24 +1,46 @@
 import 'dart:math';
 import 'package:dota_guess_the_hero/render/c_render_controller.dart';
 import 'package:dota_guess_the_hero/render/m_render_model.dart';
+import 'package:dota_guess_the_hero/utils/app_colors.dart';
+import 'package:dota_guess_the_hero/utils/app_colors.dart';
+import 'package:dota_guess_the_hero/utils/app_colors.dart';
+import 'package:dota_guess_the_hero/utils/app_colors.dart';
+import 'package:dota_guess_the_hero/utils/app_colors.dart';
+import 'package:dota_guess_the_hero/utils/app_colors.dart';
+import 'package:dota_guess_the_hero/utils/app_colors.dart';
 import 'package:dota_guess_the_hero/utils/app_constants.dart';
 import 'package:dota_guess_the_hero/utils/gobal_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../utils/app_functions.dart';
+
 class GuessHeroController extends GetxController {
   final RenderController renderController = Get.find();
+
   RenderModel? selectedHero;
   List<RenderModel> suggestSearchHeroList = [];
+  List<RenderModel> tempAllHeroesList = [];
   List<RenderModel> guessedHeroList = [];
   bool xSearching = false;
   bool xCorrectGuess = false;
+
+  @override
+  Future<void> onInit() async {
+    await AppFunctions().getHeroesFromJSON();
+    tempAllHeroesList.clear();
+    tempAllHeroesList = renderController.allHeroesList;
+    update();
+    getSelectedHero();
+    super.onInit();
+  }
 
   TextEditingController searchTEC = TextEditingController();
   FocusNode searchFN = FocusNode();
 
   void onSelectSearchedHero(RenderModel hero) {
     var tempHeroModel = RenderModel(
+        moveStyle: hero.moveStyle,
         name: hero.name,
         species: hero.species,
         position: hero.position,
@@ -32,7 +54,7 @@ class GuessHeroController extends GetxController {
     guessedHeroList.add(tempHeroModel);
     if (guessedHeroList.length > 1) {
       guessedHeroList.sort(
-        (a, b) => b.selectedDateTime.compareTo(a.selectedDateTime),
+        (a, b) => a.selectedDateTime.compareTo(b.selectedDateTime),
       );
     }
     searchTEC.clear();
@@ -94,6 +116,8 @@ class GuessHeroController extends GetxController {
     } else if (type == "Position" || type == "Species") {
       validationColor = getRolesAndSpeciesValidationColor(
           data: data, xSpecies: type == "Species");
+    } else if (type == "Move Style") {
+      validationColor = getMoveStyleValidationColor(data: data);
     } else {
       validationColor = getReleaseYearValidationColor(data: data);
     }
@@ -107,60 +131,72 @@ class GuessHeroController extends GetxController {
     data2.sort();
     if (data.length == data2.length &&
         data.every((element) => data2.contains(element))) {
-      return Colors.green;
+      return AppColors.greenColor;
     } else {
       for (var r in data) {
         if (data2.contains(r)) {
-          return Colors.yellowAccent;
+          return AppColors.yellowColor;
         }
       }
-      return Colors.red;
+      return AppColors.redColor;
     }
   }
 
   Color getGenderValidationColor({required String data}) {
     if (data.toUpperCase() == selectedHero!.gender.toUpperCase()) {
-      return Colors.green;
+      return AppColors.greenColor;
     } else {
-      return Colors.red;
+      return AppColors.redColor;
+    }
+  }
+
+  Color getMoveStyleValidationColor({required String data}) {
+    if (data.toUpperCase() == selectedHero!.moveStyle.toUpperCase()) {
+      return AppColors.greenColor;
+    } else {
+      return AppColors.redColor;
     }
   }
 
   Color getAttributeValidationColor({required String data}) {
     if (data.toUpperCase() == selectedHero!.attribute.toUpperCase()) {
-      return Colors.green;
+      return AppColors.greenColor;
     } else {
-      return Colors.red;
+      return AppColors.redColor;
     }
   }
 
   Color getRangeTypeValidationColor({required String data}) {
     if (data.toUpperCase() == selectedHero!.rangeType.toUpperCase()) {
-      return Colors.green;
+      return AppColors.greenColor;
     } else {
-      return Colors.red;
+      return AppColors.redColor;
     }
   }
 
   Color getReleaseYearValidationColor({required String data}) {
     if (data == selectedHero!.releasedYear) {
-      return Colors.green;
+      return AppColors.greenColor;
     } else {
-      return Colors.red;
+      return AppColors.redColor;
     }
   }
 
   Color getComplexityValidationColor({required String data}) {
     if (data.toUpperCase() == selectedHero!.complexityLevel.toUpperCase()) {
-      return Colors.green;
+      return AppColors.greenColor;
     } else {
-      return Colors.red;
+      return AppColors.redColor;
     }
   }
 
   void filterSearch(String input) {
     suggestSearchHeroList.clear();
-    suggestSearchHeroList = renderController.allHeroesList
+    for (var r in guessedHeroList) {
+      tempAllHeroesList.removeWhere((element) => element.name == r.name);
+    }
+    superPrint(tempAllHeroesList.length);
+    suggestSearchHeroList = tempAllHeroesList
         .where((element) =>
             element.name.toUpperCase().contains(input.toUpperCase()))
         .toList();
@@ -168,8 +204,8 @@ class GuessHeroController extends GetxController {
 
   void getSelectedHero() {
     Random random = Random();
-    int selectedHeroId = random.nextInt(renderController.allHeroesList.length);
-    selectedHero = renderController.allHeroesList[selectedHeroId];
+    int selectedHeroId = random.nextInt(tempAllHeroesList.length);
+    selectedHero = tempAllHeroesList[selectedHeroId];
     // Future.delayed(const Duration(seconds: 2)).then((value) => update());
   }
 }

@@ -1,10 +1,8 @@
-import 'dart:convert';
 import 'package:dota_guess_the_hero/guess_hero/v_guess_hero_page.dart';
 import 'package:dota_guess_the_hero/render/c_render_controller.dart';
 import 'package:dota_guess_the_hero/render/m_render_model.dart';
 import 'package:dota_guess_the_hero/utils/extensions/sized_box_extension.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 
 import '../utils/app_functions.dart';
@@ -25,15 +23,7 @@ class _RenderPageState extends State<RenderPage> {
   }
 
   void initLoad() async {
-    final String result = await rootBundle.loadString('assets/heroes.json');
-    Map<String, dynamic> rawData = jsonDecode(result);
-    for (var r in rawData['heroes']) {
-      controller.allHeroesList.add(RenderModel.fromJson(json: r));
-    }
-    if (controller.allHeroesList.length > 1) {
-      controller.sortHeroesByAttributeAndName();
-    }
-    controller.update();
+    await AppFunctions().getHeroesFromJSON();
   }
 
   @override
@@ -162,7 +152,8 @@ class _RenderPageState extends State<RenderPage> {
                   style: const TextStyle(
                       fontSize: 16, fontWeight: FontWeight.w600),
                 ),
-                Text("${hero.position}/ ${hero.releasedYear.toString()}"),
+                Text(
+                    "${hero.position}/ ${hero.releasedYear.toString()}/ ${hero.moveStyle.toString()}"),
               ],
             ),
           ),

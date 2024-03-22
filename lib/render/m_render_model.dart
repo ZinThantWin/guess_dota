@@ -8,6 +8,7 @@ class RenderModel {
   String rangeType = "melee";
   String complexityLevel = "easy";
   String releasedYear = "2004";
+  String moveStyle = "Walk";
 
   DateTime selectedDateTime = DateTime(2000);
 
@@ -21,7 +22,8 @@ class RenderModel {
       required this.species,
       required this.rangeType,
       required this.selectedDateTime,
-      required this.releasedYear});
+      required this.releasedYear,
+      required this.moveStyle});
 
   factory RenderModel.fromJson({required Map<String, dynamic> json}) {
     List<String> tempList = [];
@@ -33,6 +35,7 @@ class RenderModel {
       tempSpeciesList.add(r);
     }
     return RenderModel(
+        moveStyle: json['moveStyle'].first,
         name: json['localized_name'],
         position: tempList,
         species: tempSpeciesList,
