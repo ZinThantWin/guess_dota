@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "443250473970",
+    "project_id": "dota-f2d50",
+    "storage_bucket": "dota-f2d50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443250473970:android:ed7c2eb957ce884536496b",
+        "android_client_info": {
+          "package_name": "com.example.dota_guess_the_hero"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443250473970-mlofdcts68b5pe8qfdg02eg1t2rn5c0i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdcERWtIVtHVKsMJt40Uc17DOf9cAHBuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443250473970-mlofdcts68b5pe8qfdg02eg1t2rn5c0i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "443250473970-fmogk1nmnqd0kdsn2gkp7aitqn9pdc35.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.dotaGuessTheHero"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

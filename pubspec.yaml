@@ -38,6 +38,10 @@ dependencies:
   get:
   google_fonts:
   tabler_icons:
+  firebase_core:
+  device_info_plus:
+  firebase_database:
+  cloud_firestore: ^4.8.1
 
 
 dev_dependencies:

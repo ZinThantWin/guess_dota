@@ -1,3 +1,4 @@
+import 'package:dota_guess_the_hero/data/c_data_controller.dart';
 import 'package:dota_guess_the_hero/guess_hero/v_guess_hero_page.dart';
 import 'package:dota_guess_the_hero/render/c_render_controller.dart';
 import 'package:dota_guess_the_hero/render/m_render_model.dart';
@@ -16,6 +17,7 @@ class RenderPage extends StatefulWidget {
 
 class _RenderPageState extends State<RenderPage> {
   final RenderController controller = Get.put(RenderController());
+  final DataController dataController = Get.put(DataController());
   @override
   void initState() {
     initLoad();
@@ -24,6 +26,7 @@ class _RenderPageState extends State<RenderPage> {
 
   void initLoad() async {
     await AppFunctions().getHeroesFromJSON();
+    await dataController.getData();
   }
 
   @override

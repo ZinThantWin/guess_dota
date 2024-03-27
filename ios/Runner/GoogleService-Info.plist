@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBB62aZN3HH5xIHlOuPiAStjtATb0-wcKU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>443250473970</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.dotaGuessTheHero</string>
+	<key>PROJECT_ID</key>
+	<string>dota-f2d50</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dota-f2d50.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:443250473970:ios:ffeec2e3df70ab2b36496b</string>
+</dict>
+</plist>
